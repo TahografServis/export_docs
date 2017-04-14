@@ -1,0 +1,21 @@
+{
+  "name": "export_docs",
+  "description": "",
+  "main": "package.json",
+  "authors": [
+    "ProjectSoft <projectsoft2009@yandex.ru>"
+  ],
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/TahografServis/export_docs",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery.highlight": "https://github.com/ematsakov/highlight.git",
+    "jquery": "1.12.4"
+  }
+}
