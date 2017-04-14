@@ -1,0 +1,29 @@
+Площадка | Ссылка на документацию | Описание | Относительный пример экспорта
+------------ | ------------- | ------------- | ------------- 
+Yandex.Market | https://yandex.ru/support/partnermarket/offers.xml | упрощённое описание | ````xml
+<offer id="12346" available="true" bid="21">
+    <url>http://best.seller.ru/product_page.asp?pid=12348</url>
+    <price>600</price>
+    <currencyId>USD</currencyId>
+    <categoryId>6</categoryId>
+    <picture>http://best.seller.ru/img/device12345.jpg</picture>
+    <store>false</store>
+    <pickup>true</pickup>
+    <delivery>false</delivery>
+    <delivery-options> 
+        <option cost="300" days="0" order-before="14"/> 
+    </delivery-options>
+    <name>Наручные часы Casio A1234567B</name>
+    <vendor>Casio</vendor>
+    <vendorCode>A1234567B</vendorCode>
+    <description>Изящные наручные часы.</description>
+    <sales_notes>Необходима предоплата.</sales_notes>
+    <manufacturer_warranty>true</manufacturer_warranty>
+    <country_of_origin>Япония</country_of_origin>
+    <age unit="year">18</age>
+    <barcode>0123456789012</barcode>
+    <cpa>1</cpa>  
+</offer>
+````
+ a | a | a | a 
+ 
