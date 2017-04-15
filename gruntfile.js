@@ -45,6 +45,9 @@ module.exports = function(grunt){
 					'assets/js/main.js': [
 						'bower_components/jquery/dist/jquery.js',
 						'bower_components/jquery.highlight/jquery.highlight.js',
+						'bower_components/hypher/dist/jquery.hypher.js',
+						'bower_components/hypher/dist/en-us.js',
+						'bower_components/hypher/dist/ru-ru.js',
 						'src/js/main.js'
 					]
 				}

@@ -1,0 +1,23 @@
+
+&lt;offer id=&quot;454545&quot; available=&quot;true&quot;&gt;
+	&lt;url&gt;http://roga-i-kopyta.ru/catalog/prod454545/&lt;/url&gt;
+	&lt;price&gt;5000&lt;/price&gt;
+	&lt;currencyId&gt;RUR&lt;/currencyId&gt;
+	&lt;categoryId&gt;4444444&lt;/categoryId&gt;
+	&lt;picture&gt;http://roga-i-kopyta.ru/i/454545_0.jpg&lt;/picture&gt;
+	&lt;delivery&gt;true&lt;/delivery&gt;
+	&lt;local_delivery_cost&gt;300&lt;/local_delivery_cost&gt;
+	&lt;vendor&gt;Salomon&lt;/vendor&gt;
+	&lt;description&gt;Ботинки трекинговые для легкого и среднего трекинга.&lt;/description&gt;
+	&lt;name&gt;Ботинки трекинговые Salomon Summer Mount&lt;/name&gt;
+	&lt;variantList&gt;
+		&lt;variant type=&quot;size&quot;&gt;
+			&lt;size category=&quot;shoes&quot; gender=&quot;M&quot; system=&quot;RU&quot;&gt;43&lt;/size&gt;
+			&lt;offerId&gt;4545451&lt;/offerId&gt;
+		&lt;/variant&gt;
+		&lt;variant type=&quot;size&quot;&gt;
+			&lt;size category=&quot;shoes&quot; gender=&quot;M&quot; system=&quot;RU&quot;&gt;44&lt;/size&gt;
+			&lt;offerId&gt;4545452&lt;/offerId&gt;
+		&lt;/variant&gt;
+	&lt;/variantList&gt;
+&lt;/offer&gt;

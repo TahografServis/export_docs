@@ -5,4 +5,6 @@ $(function(){
 		indent:'tabs',
 		list:'ol'
 	});
+	$('td:nth-child(3)').hyphenate('ru');
+	$('p').hyphenate('en-us');
 });

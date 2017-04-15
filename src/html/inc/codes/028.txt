@@ -1,0 +1,65 @@
+
+&lt;Ads formatVersion=&quot;3&quot; target=&quot;Avito.ru&quot;&gt;
+	&lt;Ad&gt;
+		&lt;Id&gt;723681273&lt;/Id&gt;
+		&lt;DateBegin&gt;2015-11-27&lt;/DateBegin&gt;
+		&lt;DateEnd&gt;2079-08-28&lt;/DateEnd&gt;
+		&lt;AdStatus&gt;TurboSale&lt;/AdStatus&gt;
+		&lt;AllowEmail&gt;Да&lt;/AllowEmail&gt;
+		&lt;ManagerName&gt;Иван Петров-Водкин&lt;/ManagerName&gt;
+		&lt;ContactPhone&gt;+7 916 683-78-22&lt;/ContactPhone&gt;
+		&lt;Region&gt;Владимирская область&lt;/Region&gt;
+		&lt;City&gt;Владимир&lt;/City&gt;
+		&lt;District&gt;Ленинский&lt;/District&gt;
+		&lt;Category&gt;Бытовая техника&lt;/Category&gt;		
+		&lt;GoodsType&gt;Стиральные машины&lt;/GoodsType&gt;		
+		&lt;Title&gt;Стиральная машина Candy GC4 1051 D&lt;/Title&gt;
+		&lt;Description&gt;&lt;![CDATA[
+&lt;p&gt;Характеристики:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;отдельно стоящая стиральная машина
+&lt;li&gt;60x40x85 см
+&lt;li&gt;фронтальная загрузка
+&lt;li&gt;cтирка до 5 кг
+&lt;li&gt;класс энергопотребления: A+
+&lt;li&gt;электронное управление
+&lt;li&gt;отжим при 1000 об/мин
+&lt;li&gt;защита от протечек
+&lt;/ul&gt;
+]]&gt;&lt;/Description&gt;
+		&lt;Price&gt;15000&lt;/Price&gt;
+		&lt;Images&gt;
+			&lt;Image url=&quot;http://img.test.ru/8F7B-4A4F3A0F2BA1.jpg&quot; /&gt;
+			&lt;Image url=&quot;http://img.test.ru/8F7B-4A4F3A0F2XA3.jpg&quot; /&gt;
+		&lt;/Images&gt;
+	&lt;/Ad&gt;
+	&lt;Ad&gt;
+		&lt;Id&gt;remont_i_stroitelstvo001&lt;/Id&gt;
+		&lt;AdStatus&gt;Free&lt;/AdStatus&gt;
+		&lt;AllowEmail&gt;Нет&lt;/AllowEmail&gt;
+		&lt;Region&gt;Санкт-Петербург&lt;/Region&gt;
+		&lt;Subway&gt;Автово&lt;/Subway&gt;
+		&lt;ContactPhone&gt;+7 495 777-10-66&lt;/ContactPhone&gt;
+		&lt;Category&gt;Ремонт и строительство&lt;/Category&gt;		
+		&lt;GoodsType&gt;Инструменты&lt;/GoodsType&gt;		
+		&lt;Title&gt;Перфоратор Makita HR3200C&lt;/Title&gt;
+		&lt;Description&gt;Перфоратор имеет три режима работы: сверление, сверление с ударом, долбление.
+ 
+Мощность, Вт 850 
+Max диаметр сверления коронкой (бетон), мм: 90 
+Max диаметр сверления&lt;/Description&gt;
+		&lt;Price&gt;250000&lt;/Price&gt;
+	&lt;/Ad&gt;		
+	&lt;Ad&gt;
+		&lt;Id&gt;mebel_i_interer002&lt;/Id&gt;
+		&lt;AdStatus&gt;Free&lt;/AdStatus&gt;
+		&lt;AllowEmail&gt;Нет&lt;/AllowEmail&gt;
+		&lt;Region&gt;Москва&lt;/Region&gt;
+		&lt;Subway&gt;Белорусская&lt;/Subway&gt;
+		&lt;ContactPhone&gt;+7 495 777-10-66&lt;/ContactPhone&gt;
+		&lt;Category&gt;Мебель и интерьер&lt;/Category&gt;
+		&lt;GoodsType&gt;Кровати, диваны и кресла&lt;/GoodsType&gt;
+		&lt;Title&gt;Кровать детская Легенда 24&lt;/Title&gt;
+		&lt;Description&gt;Спальное место: 80х160 см, габариты: 1642*882*500 мм, материал: ЛДСП, цвет корпуса: венге светлый.&lt;/Description&gt;
+	&lt;/Ad&gt;
+&lt;/Ads&gt;

@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "jquery.highlight": "https://github.com/ematsakov/highlight.git",
-    "jquery": "1.12.4"
+    "jquery": "1.12.4",
+    "hypher": "https://github.com/ProjectSoft-STUDIONIONS/hypher.git#^0.2.4"
   }
 }

@@ -1,0 +1,9 @@
+
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;InventoryArray&gt;
+	&lt;Inventory&gt;
+		&lt;SKU&gt;0001&lt;/SKU&gt;
+		&lt;Price&gt;10&lt;/Price&gt;
+		&lt;Quantity&gt;2&lt;/Quantity&gt;
+	&lt;/Inventory&gt;	
+&lt;/InventoryArray&gt;

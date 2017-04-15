@@ -1,0 +1,40 @@
+
+&lt;Ads formatVersion=&quot;3&quot; target=&quot;Avito.ru&quot;&gt;
+	&lt;Ad&gt;
+		&lt;Id&gt;723681273&lt;/Id&gt;
+		&lt;DateBegin&gt;2015-11-27&lt;/DateBegin&gt;
+		&lt;DateEnd&gt;2079-08-28&lt;/DateEnd&gt;
+		&lt;AdStatus&gt;TurboSale&lt;/AdStatus&gt;
+		&lt;AllowEmail&gt;Да&lt;/AllowEmail&gt;
+		&lt;ManagerName&gt;Иван Петров-Водкин&lt;/ManagerName&gt;
+		&lt;ContactPhone&gt;+7 916 683-78-22&lt;/ContactPhone&gt;
+		&lt;Region&gt;Владимирская область&lt;/Region&gt;
+		&lt;City&gt;Владимир&lt;/City&gt;
+		&lt;District&gt;Ленинский&lt;/District&gt;
+		&lt;Category&gt;Оборудование для бизнеса&lt;/Category&gt;		
+		&lt;GoodsType&gt;Для салона красоты&lt;/GoodsType&gt;	  
+		&lt;Title&gt;Электрический бойлерный пароконвектомат Ratio C1&lt;/Title&gt;
+		&lt;Description&gt;&lt;![CDATA[
+&lt;p&gt;&lt;strong&gt;Электрический бойлерный пароконвектомат RATIO C1&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cool Down – быстрое охлаждение рабочей камеры.
+&lt;li&gt;Режим понижения мощности для электрических моделей (1/2 энергии).
+&lt;/ul&gt;
+]]&gt;&lt;/Description&gt;
+		&lt;Price&gt;150000&lt;/Price&gt;
+		&lt;Images&gt;
+			&lt;Image url=&quot;http://img.test.ru/8F7B-4A4F3A0F2BA1.jpg&quot; /&gt;
+			&lt;Image url=&quot;http://img.test.ru/8F7B-4A4F3A0F2XA3.jpg&quot; /&gt;
+		&lt;/Images&gt;
+	&lt;/Ad&gt;
+	&lt;Ad&gt;
+		&lt;Id&gt;odb3727321&lt;/Id&gt;
+		&lt;Region&gt;Санкт-Петербург&lt;/Region&gt;
+		&lt;Subway&gt;Автово&lt;/Subway&gt;
+		&lt;Category&gt;Готовый бизнес&lt;/Category&gt;		
+		&lt;GoodsType&gt;Торговля&lt;/GoodsType&gt;		
+		&lt;Title&gt;Магазин разливного пива в прикассовой зоне&lt;/Title&gt;
+		&lt;Description&gt;Продаем успешный магазин разливного пива, находящийся в прикассовой зоне супермаркета Дикси на первой линии домов крупной магистрали. Отдел расположен сразу при входе в супермаркет, не заметить невозможно. Посещаемость супермаркета в среднем 1500 человек в день&lt;/Description&gt;
+		&lt;Price&gt;450000&lt;/Price&gt;
+	&lt;/Ad&gt;		
+&lt;/Ads&gt;

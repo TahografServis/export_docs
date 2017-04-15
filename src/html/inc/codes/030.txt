@@ -1,0 +1,60 @@
+
+&lt;Ads formatVersion=&quot;3&quot; target=&quot;Avito.ru&quot;&gt;
+	&lt;Ad&gt;
+		&lt;Id&gt;723681273&lt;/Id&gt;
+		&lt;DateBegin&gt;2015-11-27&lt;/DateBegin&gt;
+		&lt;DateEnd&gt;2079-08-28&lt;/DateEnd&gt;
+		&lt;AdStatus&gt;TurboSale&lt;/AdStatus&gt;
+		&lt;AllowEmail&gt;Да&lt;/AllowEmail&gt;
+		&lt;ManagerName&gt;Иван Петров-Водкин&lt;/ManagerName&gt;
+		&lt;ContactPhone&gt;+7 916 683-78-22&lt;/ContactPhone&gt;
+		&lt;Region&gt;Владимирская область&lt;/Region&gt;
+		&lt;City&gt;Владимир&lt;/City&gt;
+		&lt;District&gt;Ленинский&lt;/District&gt;
+		&lt;Street&gt;ул. Ленина, д. 9&lt;/Street&gt;
+		&lt;Category&gt;Вакансии&lt;/Category&gt;		   
+		&lt;Industry&gt;Производство, сырьё, с/х&lt;/Industry&gt;
+		&lt;Title&gt;Продавец-консультант&lt;/Title&gt;
+		&lt;JobType&gt;Полный день&lt;/JobType&gt;
+		&lt;Experience&gt;Более 1 года&lt;/Experience&gt;
+		&lt;Description&gt;&lt;![CDATA[
+&lt;p&gt;В Компании &lt;strong&gt;конкурс на вакансию&lt;/strong&gt; «Специалист офиса продаж».&lt;br /&gt;
+Своим сотрудникам Розничная сеть &lt;em&gt;обеспечивает&lt;/em&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Обучение за счет компании,
+&lt;li&gt;Возможность переезда в другой город,
+&lt;li&gt;Официальный доход.
+&lt;li&gt;Премия, которая зависит только от твоей работы.
+&lt;li&gt;Участие в корпоративных мероприятиях.
+&lt;li&gt;Гибкий график работы.
+&lt;li&gt;Полный социальный пакет (ДМС, оплата больничного, ежегодного отпуска, дополнительное страхование от несчастных случаев).
+&lt;/ul&gt;
+]]&gt;&lt;/Description&gt;
+		&lt;Salary&gt;33000&lt;/Salary&gt;
+		&lt;Images&gt;
+			&lt;Image url=&quot;http://52.img.com/300x150/25719652_811142943.jpg&quot; /&gt;
+		&lt;/Images&gt;		
+	&lt;/Ad&gt;
+	&lt;Ad&gt;
+		&lt;Id&gt;vacancy2016-07-25-2&lt;/Id&gt;
+		&lt;Region&gt;Москва&lt;/Region&gt;
+		&lt;Street&gt;ул. Ленина, д. 9&lt;/Street&gt;
+		&lt;Category&gt;Вакансии&lt;/Category&gt;		   
+		&lt;Industry&gt;Юриспруденция&lt;/Industry&gt;
+		&lt;Title&gt;Старший помошник юриста&lt;/Title&gt;
+		&lt;JobType&gt;Неполный день&lt;/JobType&gt;
+		&lt;Experience&gt;Не имеет значения&lt;/Experience&gt;
+		&lt;Description&gt;Требования:
+- желание работать
+- умение работать в команде
+- нацеленность на результат
+- высшее юридическое образование
+Условия:
+- стабильная работа в крупной компании
+- полный социальный пакет
+- оплачиваемый отпуск и больничный
+- Стремительный карьерный рост
+- Стабильность - официальное трудоустройство с первого дня, «белая» заработная плата, оплачиваемые отпуска и больничные листы
+&lt;/Description&gt;	
+	&lt;/Ad&gt;
+&lt;/Ads&gt;

@@ -1,0 +1,186 @@
+
+&lt;Ads formatVersion=&quot;3&quot; target=&quot;Avito.ru&quot;&gt;
+	&lt;Ad&gt;
+		&lt;Id&gt;xjfdge4735202&lt;/Id&gt;
+		&lt;Category&gt;Квартиры&lt;/Category&gt;
+		&lt;OperationType&gt;Продам&lt;/OperationType&gt;
+		&lt;DateBegin&gt;2015-11-27&lt;/DateBegin&gt;
+		&lt;DateEnd&gt;2079-08-28&lt;/DateEnd&gt;
+		&lt;Region&gt;Алтайский край&lt;/Region&gt;
+		&lt;City&gt;Барнаул&lt;/City&gt;
+		&lt;Description&gt;
+			Новая, просторная, светлая и уютная квартира с типовым косметическим ремонтом в новом доме серии &quot;П-44Т&quot;. 
+ 
+			Комнаты изолированные, 19 и 15 метров, кухня 13 метров с эркером, большая ванная, с/у раздельный, две застекленные лоджии. 
+ 
+			А также:
+				* стеклопакеты, 
+				* паркетная доска, 
+				* свободна, 
+				* никто не прописан, 
+				* прямая продажа.
+		&lt;/Description&gt;
+		&lt;Price&gt;123000&lt;/Price&gt;
+		&lt;CompanyName&gt;ООО &quot;Рога и копыта&quot;&lt;/CompanyName&gt;
+		&lt;ManagerName&gt;Иван Петров-Водкин&lt;/ManagerName&gt;
+		&lt;EMail&gt;manager@company.com&lt;/EMail&gt;
+		&lt;AllowEmail&gt;Нет&lt;/AllowEmail&gt;
+		&lt;ContactPhone&gt;+7 916 683-78-22&lt;/ContactPhone&gt;
+		&lt;Images&gt;
+			&lt;Image url=&quot;http://img.test.ru/8F7B-4A4F3A0F2BA1.jpg&quot; /&gt;
+			&lt;Image url=&quot;http://img.test.ru/8F7B-4A4F3A0F2XA3.jpg&quot; /&gt;
+		&lt;/Images&gt;
+		&lt;VideoURL&gt;http://www.youtube.com/watch?v=YKmDXNrDdBI&lt;/VideoURL&gt;
+		&lt;AdStatus&gt;PushUp&lt;/AdStatus&gt;
+		&lt;Rooms&gt;2&lt;/Rooms&gt;
+		&lt;Square&gt;61&lt;/Square&gt;
+		&lt;Floor&gt;13&lt;/Floor&gt;
+		&lt;Floors&gt;16&lt;/Floors&gt;
+		&lt;HouseType&gt;Деревянный&lt;/HouseType&gt;
+		&lt;MarketType&gt;Новостройка&lt;/MarketType&gt;
+		&lt;NewDevelopmentId&gt;28212&lt;/NewDevelopmentId&gt;
+		&lt;CadastralNumber&gt;77:04:0004011:3882&lt;/CadastralNumber&gt;
+	&lt;/Ad&gt;
+	&lt;Ad&gt;
+		&lt;Id&gt;xjfdge4735204&lt;/Id&gt;
+		&lt;Category&gt;Комнаты&lt;/Category&gt;
+		&lt;Region&gt;Тамбовская область&lt;/Region&gt;
+		&lt;City&gt;Моршанск&lt;/City&gt;
+		&lt;Street&gt;Моршанский р-н, с. Устьи, ул. Лесная, 7&lt;/Street&gt;
+		&lt;Latitude&gt;53.485221&lt;/Latitude&gt;
+		&lt;Longitude&gt;41.840005&lt;/Longitude&gt;
+		&lt;Description&gt;&lt;![CDATA[
+&lt;p&gt;Новая, просторная, &lt;strong&gt;светлая и уютная квартира&lt;strong&gt; с ремонтом и большим холодильником,&lt;br /&gt;
+комнаты изолированные, 11 и 10 метров, кухня 3 метра с балконом.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Важно:&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;маленькая ванная, 
+&lt;li&gt;с/у совмещенный, 
+&lt;li&gt;3 застекленные лоджии, 
+&lt;li&gt;стеклопакеты, 
+&lt;li&gt;паркет, 
+&lt;li&gt;свободна.
+&lt;/ul&gt;
+]]&gt;
+		&lt;/Description&gt;
+		&lt;Price&gt;102000&lt;/Price&gt;
+		&lt;Rooms&gt;2&lt;/Rooms&gt;
+		&lt;Square&gt;61&lt;/Square&gt;
+		&lt;Floor&gt;14&lt;/Floor&gt;
+		&lt;Floors&gt;16&lt;/Floors&gt;
+		&lt;HouseType&gt;Деревянный&lt;/HouseType&gt;
+		&lt;OperationType&gt;Сдам&lt;/OperationType&gt;
+		&lt;LeaseType&gt;На длительный срок&lt;/LeaseType&gt;
+		&lt;LeaseCommission&gt;Есть&lt;/LeaseCommission&gt;
+		&lt;LeaseCommissionSize&gt;50&lt;/LeaseCommissionSize&gt;
+		&lt;LeaseDeposit&gt;2,5 месяца&lt;/LeaseDeposit&gt;
+		&lt;LeaseBeds&gt;3&lt;/LeaseBeds&gt;
+		&lt;LeaseSleepingPlaces&gt;5&lt;/LeaseSleepingPlaces&gt;
+		&lt;LeaseMultimedia&gt;
+			&lt;Option&gt;Wi-Fi&lt;/Option&gt;
+			&lt;Option&gt;Кабельное / цифровое ТВ&lt;/Option&gt;
+		&lt;/LeaseMultimedia&gt;
+		&lt;LeaseAppliances&gt;
+			&lt;Option&gt;Плита&lt;/Option&gt;
+			&lt;Option&gt;Стиральная машина&lt;/Option&gt;
+			&lt;Option&gt;Фен&lt;/Option&gt;
+		&lt;/LeaseAppliances&gt;
+		&lt;LeaseComfort&gt;
+			&lt;Option&gt;Кондиционер&lt;/Option&gt;
+			&lt;Option&gt;Баня / сауна&lt;/Option&gt;
+		&lt;/LeaseComfort&gt;
+		&lt;LeaseAdditionally&gt;
+			&lt;Option&gt;Можно с питомцами&lt;/Option&gt;
+			&lt;Option&gt;Можно для мероприятий&lt;/Option&gt;
+			&lt;Option&gt;Можно курить&lt;/Option&gt;
+		&lt;/LeaseAdditionally&gt;
+		&lt;Images&gt;
+			&lt;Image name=&quot;a1.jpg&quot;/&gt;
+			&lt;Image name=&quot;a2.jpg&quot;/&gt;
+			&lt;Image name=&quot;a3.jpg&quot;/&gt;
+		&lt;/Images&gt;
+		&lt;AllowEmail&gt;Нет&lt;/AllowEmail&gt;		
+	&lt;/Ad&gt;
+	&lt;Ad&gt;
+		&lt;Id&gt;47352067890&lt;/Id&gt;
+		&lt;Category&gt;Дома, дачи, коттеджи&lt;/Category&gt;
+		&lt;OperationType&gt;Продам&lt;/OperationType&gt;
+		&lt;ObjectType&gt;Дом&lt;/ObjectType&gt;
+		&lt;Region&gt;Владимирская область&lt;/Region&gt;
+		&lt;City&gt;Владимир&lt;/City&gt;
+		&lt;Street&gt;Судогодское шоссе&lt;/Street&gt;
+		&lt;DistanceToCity&gt;5&lt;/DistanceToCity&gt;
+		&lt;Latitude&gt;56.046606&lt;/Latitude&gt;
+		&lt;Longitude&gt;40.445891&lt;/Longitude&gt;
+		&lt;Square&gt;85&lt;/Square&gt;
+		&lt;LandArea&gt;6.5&lt;/LandArea&gt;
+		&lt;Floors&gt;2&lt;/Floors&gt;
+		&lt;WallsType&gt;Брус&lt;/WallsType&gt;
+		&lt;Description&gt;Тестовое объявление — тест Автозагрузки - Дома, дачи, коттеджи.&lt;/Description&gt;
+		&lt;Price&gt;2000000&lt;/Price&gt;
+		&lt;CadastralNumber&gt;77:04:0004011:3885&lt;/CadastralNumber&gt;
+		&lt;AdStatus&gt;Free&lt;/AdStatus&gt;
+	&lt;/Ad&gt;
+	&lt;Ad&gt;
+		&lt;Id&gt;зем47352067891&lt;/Id&gt;
+		&lt;Category&gt;Земельные участки&lt;/Category&gt;
+		&lt;OperationType&gt;Сдам&lt;/OperationType&gt;
+		&lt;ObjectType&gt;Сельхозназначения (СНТ, ДНП)&lt;/ObjectType&gt;
+		&lt;Region&gt;Владимирская область&lt;/Region&gt;
+		&lt;City&gt;Владимир&lt;/City&gt;
+		&lt;District&gt;Ленинский&lt;/District&gt;
+		&lt;Street&gt;микрорайон Коммунар, Набережная улица&lt;/Street&gt;
+		&lt;District&gt;Октябрьский&lt;/District&gt;
+		&lt;DistanceToCity&gt;0&lt;/DistanceToCity&gt;
+		&lt;Latitude&gt;56.108573&lt;/Latitude&gt;
+		&lt;Longitude&gt;40.42247&lt;/Longitude&gt;
+		&lt;LandArea&gt;11.7&lt;/LandArea&gt;
+		&lt;Description&gt;Тестовое объявление — тест Автозагрузки - Земельные участки.&lt;/Description&gt;
+		&lt;Price&gt;2000&lt;/Price&gt;
+		&lt;CadastralNumber&gt;77:04:0004011:3892&lt;/CadastralNumber&gt;
+	&lt;/Ad&gt;	
+	&lt;Ad&gt;
+		&lt;Id&gt;гараж345353&lt;/Id&gt;
+		&lt;Category&gt;Гаражи и машиноместа&lt;/Category&gt;
+		&lt;OperationType&gt;Продам&lt;/OperationType&gt;
+		&lt;ObjectType&gt;Машиноместо&lt;/ObjectType&gt;
+		&lt;ObjectSubtype&gt;Многоуровневый паркинг&lt;/ObjectSubtype&gt;
+		&lt;Secured&gt;Нет&lt;/Secured&gt;
+		&lt;Region&gt;Санкт-Петербург&lt;/Region&gt;
+		&lt;Street&gt;Роменская улица, 2&lt;/Street&gt;
+		&lt;Subway&gt;Лиговский проспект&lt;/Subway&gt;
+		&lt;Square&gt;10&lt;/Square&gt;
+		&lt;Description&gt;Тестовое объявление — тест Автозагрузки - Гаражи и машиноместа.&lt;/Description&gt;
+		&lt;Price&gt;1500000&lt;/Price&gt;
+		&lt;AdStatus&gt;Free&lt;/AdStatus&gt;
+	&lt;/Ad&gt;
+	&lt;Ad&gt;
+		&lt;Id&gt;xjfdge4735205&lt;/Id&gt;
+		&lt;Category&gt;Коммерческая недвижимость&lt;/Category&gt;
+		&lt;OperationType&gt;Сдам&lt;/OperationType&gt;
+		&lt;ObjectType&gt;Офисное помещение&lt;/ObjectType&gt;
+		&lt;BuildingClass&gt;A&lt;/BuildingClass&gt;
+		&lt;LeaseType&gt;На длительный срок&lt;/LeaseType&gt;
+		&lt;Region&gt;Москва&lt;/Region&gt;
+		&lt;Subway&gt;Белорусская&lt;/Subway&gt;
+		&lt;Street&gt;ул. Лесная, д. 7&lt;/Street&gt;
+		&lt;Square&gt;300&lt;/Square&gt;
+		&lt;Title&gt;Офис 300 кв. м, бизнес-центр &quot;Белые сады&quot;&lt;/Title&gt;
+		&lt;Description&gt;Тестовое объявление — тест Автозагрузки - Коммерческая недвижимость.&lt;/Description&gt;
+		&lt;Price&gt;12000&lt;/Price&gt;
+		&lt;PriceType&gt;в год за м2&lt;/PriceType&gt;
+	&lt;/Ad&gt;
+	&lt;Ad&gt;
+		&lt;Id&gt;нзр4735207&lt;/Id&gt;
+		&lt;Category&gt;Недвижимость за рубежом&lt;/Category&gt;
+		&lt;ObjectType&gt;Квартира, апартаменты&lt;/ObjectType&gt;
+		&lt;OperationType&gt;Продам&lt;/OperationType&gt;
+		&lt;Region&gt;Москва&lt;/Region&gt;
+		&lt;Subway&gt;Белорусская&lt;/Subway&gt;
+		&lt;Street&gt;ул. Лесная, д. 5&lt;/Street&gt;
+		&lt;Country&gt;Уругвай&lt;/Country&gt;		
+		&lt;Description&gt;Тестовое объявление — тест Автозагрузки - Недвижимость за рубежом.&lt;/Description&gt;
+		&lt;Price&gt;2100000&lt;/Price&gt;
+		&lt;AdStatus&gt;TurboSale&lt;/AdStatus&gt;
+	&lt;/Ad&gt;	
+&lt;/Ads&gt;

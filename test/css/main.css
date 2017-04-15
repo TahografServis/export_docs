@@ -389,9 +389,17 @@ table.table thead td {
   vertical-align: middle;
   position: relative;
 }
+table.table thead th:nth-child(4),
+table.table thead td:nth-child(4) {
+  max-width: 400px !important;
+}
 table.table thead th:nth-child(3),
 table.table thead td:nth-child(3) {
-  max-width: 400px;
+  width: 100px !important;
+}
+table.table thead th:nth-child(1),
+table.table thead td:nth-child(1) {
+  max-width: 40px !important;
 }
 table.table tbody td {
   vertical-align: top;
@@ -436,7 +444,7 @@ table.table tbody td .linkpovider:hover:before {
 }
 table.table tbody td div.highlight {
   margin-bottom: 0px;
-  max-width: 590px;
+  max-width: 500px;
   position: relative;
 }
 table.table tbody td div.highlight pre {

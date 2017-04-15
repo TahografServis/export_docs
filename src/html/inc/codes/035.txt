@@ -1,0 +1,19 @@
+
+&lt;offer available=&quot;true&quot; id=&quot;32865619&quot;&gt;
+	&lt;currencyId&gt;RUR&lt;/currencyId&gt;
+	&lt;categoryId&gt;3166042&lt;/categoryId&gt;
+	&lt;price&gt;7160&lt;/price&gt;
+	&lt;picture&gt;http://site.ru/images/products/32865619_1.jpg&lt;/picture&gt;
+	&lt;picture&gt;http://site.ru/images/products/32865619_2.jpg&lt;/picture&gt;
+	&lt;picture&gt;http://site.ru/images/products/32865619_3.jpg&lt;/picture&gt;
+	&lt;picture&gt;http://site.ru/images/products/32865619_4.jpg&lt;/picture&gt;
+	&lt;name&gt;Название товара&lt;/name&gt;
+	&lt;description&gt;&lt;![CDATA[Подробное описание модели]]&gt;&lt;/description&gt;
+	&lt;param name=&quot;Бренд&quot;&gt;Diesel&lt;/param&gt;
+	&lt;param name=&quot;Коллекция&quot;&gt;Digital&lt;/param&gt;
+	&lt;param name=&quot;Тип механизма&quot;&gt;кварцевые&lt;/param&gt;
+	&lt;param name=&quot;Источник энергии&quot;&gt;от батарейки&lt;/param&gt;
+	&lt;param name=&quot;Водозащита&quot;&gt;WR 50&lt;/param&gt;
+	&lt;param name=&quot;Дисплей&quot;&gt;цифры&lt;/param&gt;
+	&lt;param name=&quot;Серийный номер&quot;&gt;есть&lt;/param&gt;
+&lt;/offer&gt;
