@@ -1,0 +1,48 @@
+
+&lt;torg_price date=&quot;2014-06-22 14:42&quot;&gt;
+	&lt;shop&gt;
+		&lt;shopname&gt;Магазин-пример&lt;/shopname&gt;
+		&lt;company&gt;ООО &quot;Магазин-пример&quot;&lt;/company&gt;
+		&lt;url&gt;http://magazin-primer.ru/&lt;/url&gt;
+		&lt;currencies&gt;
+			&lt;currency id=&quot;RUR&quot; rate=&quot;1&quot;/&gt;
+			&lt;currency id=&quot;USD&quot; rate=&quot;33.70&quot;/&gt;
+		&lt;/currencies&gt;
+		&lt;categories&gt;
+			&lt;category id=&quot;1&quot; parentId=&quot;0&quot;&gt;Кондиционеры&lt;/category&gt;
+			&lt;category id=&quot;2&quot; parentId=&quot;1&quot;&gt;Настенные кондиционеры&lt;/category&gt;
+		&lt;/categories&gt;
+		&lt;offers&gt;
+			&lt;offer id=&quot;1&quot; available=&quot;true&quot; cbid=&quot;4.50&quot;&gt;
+				&lt;url&gt;http://magazin-primer.ru/cond/wall/model1?from=torg&lt;/url&gt;
+				&lt;price&gt;10596&lt;/price&gt;
+				&lt;currencyId&gt;RUR&lt;/currencyId&gt;
+				&lt;categoryId&gt;2&lt;/categoryId&gt;
+				&lt;picture&gt;http://magazin-primer.ru/pictures/model1.jpeg&lt;/picture&gt;
+				&lt;typePrefix&gt;Кондиционер&lt;/typePrefix&gt;
+				&lt;vendor&gt;LG&lt;/vendor&gt;
+				&lt;model&gt;LS-H0561AL&lt;/model&gt;
+				&lt;description&gt;
+				Для помещеня площадью до 16 кв.м. этот сплит - кондиционер является самым доступным в своей категории. Сборка - Ю.Корея. Только охлаждение.
+				&lt;/description&gt;
+				&lt;delivery&gt;true&lt;/delivery&gt;
+				&lt;pickup&gt;false&lt;/pickup&gt;
+				&lt;local_delivery_cost&gt;300&lt;/local_delivery_cost&gt;
+			&lt;/offer&gt;
+			&lt;offer id=&quot;2&quot; available=&quot;true&quot; cbid=&quot;4.70&quot;&gt;
+				&lt;url&gt;http://magazin-primer.ru/cond/wall/model2?from=torg&lt;/url&gt;
+				&lt;price&gt;320&lt;/price&gt;
+				&lt;currencyId&gt;USD&lt;/currencyId&gt;
+				&lt;categoryId&gt;2&lt;/categoryId&gt;
+				&lt;picture&gt;http://magazin-primer.ru/pictures/model2.jpeg&lt;/picture&gt;
+				&lt;name&gt;Кондиционер LG S07LH&lt;/name&gt;
+				&lt;description&gt;
+				Сплит - кондиционер с плазменным фильтром для помещения площадью до 21 кв.м. Охлаждение/обогрев.
+				&lt;/description&gt;
+				&lt;delivery&gt;true&lt;/delivery&gt;
+				&lt;pickup&gt;true&lt;/pickup&gt;
+				&lt;local_delivery_cost&gt;300&lt;/local_delivery_cost&gt;
+			&lt;/offer&gt;
+		&lt;/offers&gt;
+	&lt;/shop&gt;
+&lt;/torg_price&gt;

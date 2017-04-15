@@ -1,0 +1,31 @@
+
+&lt;offer id=&quot;1234148&quot; type=&quot;vendor.model&quot; available=&quot;true&quot; bid=&quot;80&quot; group_id=&quot;12345&quot;&gt;
+	&lt;url&gt;http://best.cosm.ru/product_page.asp?pid=12344&lt;/url&gt;
+	&lt;price&gt;1000&lt;/price&gt;
+	&lt;currencyId&gt;RUR&lt;/currencyId&gt;
+	&lt;categoryId&gt;6&lt;/categoryId &gt;
+	&lt;market_category&gt;Красота и здоровье/Косметика, парфюмерия и уход/Макияж/Помада и контур для губ&lt;/market_category&gt;
+	&lt;picture&gt;http://best.cosm.ru/img/picture1.jpg&lt;/picture&gt;
+	&lt;picture&gt;http://best.cosm.ru/img/picture2.jpg&lt;/picture&gt;
+	&lt;picture&gt;http://best.cosm.ru/img/picture3.jpg&lt;/picture&gt;
+	&lt;picture&gt;http://best.cosm.ru/img/picture4.jpg&lt;/picture&gt;
+	&lt;store&gt;true&lt;/store&gt;
+	&lt;pickup&gt;false&lt;/pickup&gt;
+	&lt;delivery&gt;true&lt;/delivery&gt;
+	&lt;delivery-options&gt;
+	  &lt;option cost=&quot;200&quot; days=&quot;1&quot; order-before=&quot;14&quot;/&gt;
+	&lt;/delivery-options&gt;
+	&lt;typePrefix&gt;Губная помада&lt;/typePrefix&gt;
+	&lt;vendor&gt;CHRISTIAN DIOR&lt;/vendor&gt;
+	&lt;model&gt;Dior Addict&lt;/model&gt;
+	&lt;description&gt;Новая губная помада Dior Addict – это признание в любви красоте и стилю, цвету и его
+	вдохновению, энергии и магнетизму Dior. Палитра, включающая 44 оттенка, позволяет создать настоящий
+	подиумный образ. Невесомая текстура и волнующая гамма оттенков Addict отвечает последним модным
+	тенденциям. Новая помада отличается более нежной текстурой и интенсивным блеском, в нее влюбляешься
+	с первого взгляда.&lt;/description&gt;
+	&lt;barcode&gt;123948637284&lt;/barcode&gt;
+	&lt;param name=&quot;Цвет&quot;&gt;445 Createur&lt;/param&gt;
+	&lt;param name=&quot;RGB&quot;&gt;255,255,255&lt;/param&gt;
+	&lt;param name=&quot;Пол&quot;&gt;Женский&lt;/param&gt;
+	&lt;param name=&quot;Возраст&quot;&gt;Взрослый&lt;/param&gt;
+&lt;/offer&gt;

@@ -1,0 +1,24 @@
+
+&lt;offer id=&quot;1234&quot; type=&quot;event-ticket&quot;  available=&quot;true&quot; bid=&quot;80&quot;&gt; 
+  &lt;url&gt;http://best.seller.ru/product_page.asp?pid=57384&lt;/url&gt;
+  &lt;price&gt;1000&lt;/price&gt;
+  &lt;oldprice&gt;1100&lt;/oldprice&gt;
+  &lt;currencyId&gt;RUR&lt;/currencyId&gt;
+  &lt;categoryId&gt;3&lt;/categoryId&gt; 
+  &lt;picture&gt;http://best.seller.ru/product_page.asp?pid=72945.jpg&lt;/picture&gt;
+  &lt;store&gt;false&lt;/store&gt;
+  &lt;pickup&gt;false&lt;/pickup&gt;
+  &lt;delivery&gt;true&lt;/delivery&gt;
+  &lt;local_delivery_cost&gt;300&lt;/local_delivery_cost&gt;
+  &lt;name&gt;Дмитрий Хворостовский и Национальный филармонический оркестр России...&lt;/name&gt;
+  &lt;place&gt;Московский  международный Дом музыки&lt;/place&gt;
+  &lt;hall&gt;Большой зал&lt;/hall&gt;
+  &lt;hall_part&gt;Партер р. 1-5&lt;hall_part&gt;
+  &lt;date&gt;2012-02-25 12:03:14&lt;/date&gt; 
+  &lt;is_premiere&gt;0&lt;is_premiere&gt;
+  &lt;is_kids&gt;0&lt;/is_kids&gt;
+  &lt;description&gt;
+  Концерт Дмитрия Хворостовского и Национального филармонического оркестра России...
+  &lt;/description&gt;
+  &lt;age&gt;6&lt;/age&gt;
+&lt;/offer&gt;

@@ -44,6 +44,7 @@ module.exports = function(grunt){
 				files: {
 					'assets/js/main.js': [
 						'bower_components/jquery/dist/jquery.js',
+						'bower_components/jquery.highlight/jquery.highlight.js',
 						'src/js/main.js'
 					]
 				}
@@ -125,6 +126,8 @@ module.exports = function(grunt){
 			html: {
 				files: [
 					'src/html/**/*.jade',
+					'src/html/**/*.html',
+					'src/html/**/*.txt',
 				],
 				tasks: ["jade","notify:done"]
 			},

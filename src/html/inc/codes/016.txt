@@ -1,0 +1,28 @@
+
+&lt;offer id=&quot;12342&quot; available=&quot;true&quot;&gt;
+	&lt;url&gt;http://garments.wikimart.ru/to_women/womens_clothing/jackets/model/67947847/uteplennaja_kurtka_dizzyway_ehlison_15126_bezhevyjj/#/anchor=Features&lt;/url&gt;
+	&lt;price&gt;3190&lt;/price&gt;
+	&lt;oldprice&gt;5643&lt;/oldprice&gt;
+	&lt;currencyId&gt;RUR&lt;/currencyId&gt;
+	&lt;categoryId&gt;6&lt;/categoryId &gt;
+	&lt;picture&gt;http://img13.wikimart.ru/6a/0a/9af09ebb-d3c3-4d44-a3ec-4f30510a6a86.jpeg&lt;/picture&gt;
+	&lt;picture&gt;http://img09.wikimart.ru/c3/29/ebe02562-3d0b-467d-8ebc-b5e39329c37d.jpeg&lt;/picture&gt;
+	&lt;local_delivery_cost&gt;100&lt;/local_delivery_cost&gt;
+	&lt;model&gt;Элисон 15126 (бежевый)&lt;/model&gt;
+	&lt;typePrefix&gt;Утепленная куртка&lt;/typePrefix&gt;
+	&lt;vendor&gt;DizzyWay&lt;/vendor&gt;
+	&lt;vendorCode&gt;15126&lt;/vendorCode&gt;
+	&lt;vendorCode&gt;15126&lt;/vendorCode&gt;
+	&lt;description&gt;Ткань верха: 100% ПЭ Утеплитель: Холлофайбер 100 гр/м.&lt;/description&gt;
+	&lt;country_of_origin&gt;Россия&lt;/country_of_origin&gt;
+	&lt;param name=&quot;Размер&quot; unit=&quot;RU&quot;&gt;46&lt;/param&gt;
+	&lt;param name=&quot;Цвет&quot;&gt;Бежевый&lt;/param&gt;
+	&lt;param name=&quot;Пол&quot;&gt;Женский&lt;/param&gt;
+	&lt;param name=&quot;Возраст&quot;&gt;Взрослый&lt;/param&gt;
+	&lt;param name=&quot;Материал&quot;&gt;Полиэстер&lt;/param&gt;
+	&lt;param name=&quot;Капюшон&quot;&gt;Да&lt;/param&gt;
+	&lt;param name=&quot;Длина куртки&quot;&gt;Длинная&lt;/param&gt;
+	&lt;param name=&quot;Сезон&quot;&gt;весна-осень&lt;/param&gt;
+	&lt;param name=&quot;Утеплитель&quot;&gt;с утеплителем&lt;/param&gt;
+	&lt;param name=&quot;Стиль&quot;&gt;лайфстайл/молодежный&lt;/param&gt;
+&lt;/offer&gt;

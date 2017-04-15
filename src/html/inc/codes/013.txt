@@ -1,0 +1,21 @@
+
+&lt;offer id=&quot;1234567&quot; type=&quot;vendor.model&quot; available=&quot;true&quot;&gt;
+	&lt;url&gt;http://www.надежнаятехника.рф/catalog/element/index.php?from=ya_market&amp;amp;utm_source=ya_market&amp;amp;utm_medium=cpc&amp;amp&lt;/url&gt;
+	&lt;price&gt;889.00&lt;/price&gt;
+	&lt;oldprice&gt;17000.00&lt;/oldprice&gt;
+	&lt;currencyId&gt;RUR&lt;/currencyId&gt;
+	&lt;categoryId&gt;1111&lt;/categoryId&gt;
+	&lt;picture&gt;http://89.123.45.678/catalog/photo/19/6.JPG&lt;/picture&gt;
+	&lt;store&gt;false&lt;/store&gt;
+	&lt;pickup&gt;false&lt;/pickup&gt;
+	&lt;delivery&gt;true&lt;/delivery&gt;
+	&lt;typePrefix&gt;Принтер&lt;/typePrefix&gt;
+	&lt;vendor&gt;НP&lt;/vendor&gt;
+	&lt;model&gt;Deskjet D2663&lt;/model&gt;
+	&lt;description&gt;
+	Серия принтеров для людей, которым нужен надежный, простой в использовании цветной принтер для повседневной печати...
+	&lt;/description&gt;
+	&lt;sales_notes&gt;Необходима предоплата.&lt;/sales_notes&gt;
+	&lt;manufacturer_warranty&gt;true&lt;/manufacturer_warranty&gt;
+	&lt;country_of_origin&gt;Япония&lt;/country_of_origin&gt;
+&lt;/offer&gt;

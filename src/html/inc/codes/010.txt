@@ -1,0 +1,21 @@
+
+&lt;offer id=&quot;12345&quot; available=&quot;true&quot; type=&quot;medicine&quot; bid=&quot;80&quot; cbid=&quot;90&quot;&gt;
+	&lt;currencyId&gt;RUB&lt;/currencyId&gt;
+	&lt;categoryId&gt;4062&lt;/categoryId&gt;
+	&lt;name&gt;БАД Селен-актив n30 таблетки&lt;/name&gt;
+	&lt;vendor&gt;ОАО ДИОД Завод эко.тех.и питания&lt;/vendor&gt;
+	&lt;vendorCode&gt;123456&lt;/vendorCode&gt;
+	&lt;url&gt;http://www.example-apteka.ru/selen-aktiv.html&lt;/url&gt;
+	&lt;picture&gt;http://www.example-apteka.ru/selen-aktiv.jpg&lt;/picture&gt;
+	&lt;price&gt;1000&lt;/price&gt;
+	&lt;delivery&gt;false&lt;/delivery&gt;
+	&lt;pickup&gt;true&lt;/pickup&gt;
+	&lt;store&gt;true&lt;/store&gt;
+	&lt;barcode&gt;4981046350037&lt;/barcode&gt;
+	&lt;sales_notes&gt;Самовывоз возможен через 3 часа после заказа&lt;/sales_notes&gt;
+	&lt;description&gt;Биоусвояемый селен 50 мкг, витамин С 50 мг. Селен-актив обеспечивает оптимальную и постоянную антиоксидантную защиту.&lt;/description&gt;
+	&lt;country_of_origin&gt;Россия&lt;/country_of_origin&gt;
+	&lt;expiry&gt;P1Y2M10DT2H30M&lt;/expiry&gt;
+	&lt;param name=&quot;Побочные действия&quot;&gt;нет&lt;/param&gt;
+	&lt;param name=&quot;Код egk&quot;&gt;123456&lt;/param&gt;
+&lt;/offer&gt;

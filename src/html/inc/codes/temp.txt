@@ -1,0 +1,107 @@
+<select name="PROFILE[TYPE]">
+	<option>Свой формат</option>
+	<option>Выгрузка в Excel</option>
+	<optgroup label="Market">
+		<option selected="selected">Упрощенное описание (ym_simple)</option>
+		<option>Произвольный товар (ym_vendor_model)</option>
+		<option>Книги (ym_book)</option>
+		<option>Аудиокниги (ym_audiobook)</option>
+		<option>Музыкальная и видео продукция (ym_multimedia)</option>
+		<option>Туры (ym_tour)</option>
+		<option>Одежда, обувь и аксессуары (ym_clothes)</option>
+		<option>Косметика, парфюмерия и уход (ym_cosmetics)</option>
+		<option>Билеты на мероприятие (ym_event_ticket)</option>
+		<option>Лекарства (ym_medicine)</option>
+	</optgroup>
+	<optgroup label="Realty">
+		<option>Недвижимость (ym_realty)</option>
+	</optgroup>
+	<optgroup label="Dynamic">
+		<option>Упрощенное описание (ym_dynamic_simple)</option>
+		<option>Произвольный товар (ym_dynamic_vendormodel)</option>
+	</optgroup>
+	<optgroup label="Google">
+		<option>Google Merchants</option>
+		<option>Google Merchants online update</option>
+	</optgroup>
+	<optgroup label="Wikimart">
+		<option>Одежда (clothes)</option>
+		<option>Произвольный товар (vendor.model)</option>
+	</optgroup>
+	<optgroup label="Tiu.ru">
+		<option>Произвольный товар</option>
+		<option>Произвольный товар (vendor.model)</option>
+		<option>Произвольный товар с поддержкой категорий</option>
+		<option>Произвольный товар с поддержкой категорий (vendor.model)</option>
+	</optgroup>
+	<optgroup label="Mail.ru">
+		<option>Экспорт товаров в систему Mail.ru</option>
+		<option>Экспорт товаров «ОДЕЖДА И ОБУВЬ» в систему Mail.ru</option>
+	</optgroup>
+	
+	
+	
+	<optgroup label="All.biz">
+		<option>Экспорт товаров в систему All.biz</option>
+	</optgroup>
+	<optgroup label="activizm.ru">
+		<option>Экспорт в систему activizm.ru</option>
+	</optgroup>
+	<optgroup label="avito.ru">
+		<option>Экспорт в систему авито (Недвижимость)</option>
+		<option>Экспорт в систему авито (Авто)</option>
+		<option>Экспорт в систему авито (Для дома и дачи)</option>
+		<option>Экспорт в систему авито (Бытовая электроника)</option>
+		<option>Экспорт в систему авито (Работа)</option>
+		<option>Экспорт в систему авито (Для бизнеса)</option>
+		<option>Экспорт в систему авито (Контекст)</option>
+	</optgroup>
+	<optgroup label="Ebay">
+		<option value="ebay_1">Экспорт в систему ebay.com (Описание товаров)</option>
+		<option value="ebay_2">Экспорт в систему ebay.com (Цена и количество товаров)</option>
+		<option value="ebay_mp30">Экспорт на Ebay через сервис MP30</option>
+	</optgroup>
+	<optgroup label="Aliexpress">
+		<option>Экспорт на портал aliexpress.com</option>
+	</optgroup>
+	<optgroup label="Ozon.ru">
+		<option>Экспорт на торговую площадку Ozon.ru</option>
+	</optgroup>
+	<optgroup label="Pulscen">
+		<option>Экспорт на торговую площадку Pulscen</option>
+		<option>Экспорт на торговую площадку Pulscen (CSV)</option>
+	</optgroup>
+	<optgroup label="LEngow">
+		<option>Выгрузка на агрегатор LEngow</option>
+	</optgroup>
+	<optgroup label="Advantshop.net">
+		<option>Выгрузка в решение AdvantShop</option>
+	</optgroup>
+	<optgroup label="Price.ru">
+		<option>Выгрузка на портал Price.ru</option>
+	</optgroup>
+	<optgroup label="Социальные сети">
+		<option>Товары и альбомы Вконтакте (vk)</option>
+		<option>Экспорт в Facebook (fb)</option>
+		<option>Экспорт в Facebook Business (fb ads)</option>
+		<option>Экспорт в Odnoklassniki (ok)</option>
+	</optgroup>
+	<optgroup label="Skybuy.ru">
+		<option>Экспорт на портал skybuy.ru</option>
+	</optgroup>
+	<optgroup label="Nadavi.net">
+		<option>Выгрузка на портал Nadavi.net</option>
+	</optgroup>
+	<optgroup label="Hotline.ua">
+		<option>Выгрузка на портал Hotline.ua</option>
+	</optgroup>
+	<optgroup label="Technoportal.ua">
+		<option>Выгрузка на портал Technoportal.ua</option>
+	</optgroup>
+	<optgroup label="Price.ua">
+		<option>Выгрузка на портал Price.ua</option>
+	</optgroup>
+	<optgroup label="Prom.ua">
+		<option>Выгрузка на портал Prom.ua</option>
+	</optgroup>
+</select>

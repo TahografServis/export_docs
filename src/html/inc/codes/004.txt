@@ -1,0 +1,22 @@
+
+&lt;offer id=&quot;12342&quot; type=&quot;audiobook&quot; available=&quot;true&quot; bid=&quot;17&quot;&gt;
+	&lt;url&gt;http://best.seller.ru/product_page.asp?pid=14345&lt;/url&gt;
+	&lt;price&gt;200&lt;/price&gt;
+	&lt;currencyId&gt;RUR&lt;/currencyId&gt;
+	&lt;categoryId&gt;3&lt;/categoryId&gt;
+	&lt;picture&gt;http://best.seller.ru/product_page.asp?pid=14345.jpg&lt;/picture&gt;
+	&lt;author&gt;Владимир Кунин&lt;/author&gt;
+	&lt;name&gt;Иваnов и Rабинович, или Аj'гоу ту 'Хаjфа!&lt;/name&gt;
+	&lt;publisher&gt;1С-Паблишинг, Союз&lt;/publisher&gt;
+	&lt;year&gt;2008&lt;/year&gt;
+	&lt;ISBN&gt;978-5-9677-0757-5&lt;/ISBN&gt;
+	&lt;language&gt;ru&lt;/language&gt;
+	&lt;performed_by&gt;Николай Фоменко&lt;/performed_by&gt;
+	&lt;performance_type&gt;начитана &lt;/performance_type&gt;
+	&lt;storage&gt;CD&lt;/storage&gt;
+	&lt;format&gt;mp3&lt;/format&gt;
+	&lt;description&gt;Перу Владимира Кунина принадлежат десятки сценариев к кинофильмам,
+	серия книг про КЫСЮ и многое, многое другое.&lt;/description&gt;
+	&lt;downloadable&gt;true&lt;/downloadable&gt;
+	&lt;age unit=&quot;year&quot;&gt;18&lt;/age&gt;
+&lt;/offer&gt;

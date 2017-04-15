@@ -1,0 +1,27 @@
+
+&lt;offer id=&quot;12341&quot; type=&quot;tour&quot; available=&quot;true&quot; bid=&quot;71&quot;&gt;
+	&lt;url&gt;http://best.seller.ru/product_page.asp?pid=12344&lt;/url&gt;
+	&lt;price&gt;24129&lt;/price&gt;
+	&lt;currencyId&gt;USD&lt;/currencyId&gt;
+	&lt;categoryId&gt;6&lt;/categoryId&gt;
+	&lt;picture&gt;http://best.seller.ru/img/device12345.jpg&lt;/picture&gt;
+	&lt;store&gt;false&lt;/store&gt;
+	&lt;pickup&gt;true&lt;/pickup&gt;
+	&lt;delivery&gt;false&lt;/delivery&gt;
+	&lt;worldRegion&gt;Африка&lt;/worldRegion&gt;
+	&lt;country&gt;Египет&lt;/country&gt;
+	&lt;region&gt;Хургада&lt;/region&gt;
+	&lt;days&gt;7&lt;/days&gt;
+	&lt;dataTour&gt;2012-01-01 12:00:00&lt;/dataTour&gt;
+	&lt;dataTour&gt;2012-01-08 12:00:00&lt;/dataTour&gt;
+	&lt;name&gt;Hilton&lt;/name&gt;
+	&lt;hotel_stars&gt;5*****&lt;/hotel_stars&gt;
+	&lt;room&gt;SNG&lt;/room&gt;
+	&lt;meal&gt;ALL&lt;/meal&gt;
+	&lt;included&gt;авиаперелет, трансфер, проживание, питание, страховка&lt;/included&gt;
+	&lt;transport&gt;Авиа&lt;/transport&gt;
+	&lt;description&gt;Отдых в Египте.&lt;/description&gt;
+	&lt;price_min&gt;24000&lt;/price_min&gt;
+	&lt;price_max&gt;25000&lt;/price_max&gt;
+	&lt;options&gt;?&lt;/options&gt;
+&lt;/offer&gt;

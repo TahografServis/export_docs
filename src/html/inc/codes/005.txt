@@ -1,0 +1,25 @@
+
+&lt;offer id=&quot;12345&quot; type=&quot;artist.title&quot; available=&quot;true&quot; bid=&quot;11&quot;&gt;
+	&lt;url&gt;http://best.seller.ru/product_page.asp?pid=12946&lt;/url&gt;
+	&lt;price&gt;450&lt;/price&gt;
+	&lt;currencyId&gt;USD&lt;/currencyId&gt;
+	&lt;categoryId&gt;2&lt;/categoryId&gt;
+	&lt;picture&gt;http://best.seller.ru/product_page.asp?pid=14345.jpg&lt;/picture&gt;
+	&lt;store&gt;false&lt;/store&gt;
+	&lt;pickup&gt;false&lt;/pickup&gt;
+	&lt;delivery&gt;true&lt;/delivery&gt;
+	&lt;artist&gt;Pink Floyd&lt;/artist&gt;
+	&lt;title&gt;Dark Side Of The Moon, Platinum Disc&lt;/title&gt;
+	&lt;year&gt;1999&lt;/year&gt;
+	&lt;media&gt;CD&lt;/media&gt;
+	&lt;description&gt;Dark Side Of The Moon, поставивший мир на уши
+	невиданным сочетанием звуков, — это всего-навсего девять 
+	треков, и даже не все они писались специально для альбома. 
+	Порывшись по сусекам, участники Pink Floyd мудро сделали 
+	новое из хорошо забытого старого — песен, которые 
+	почему-либо не пошли в дело или остались незаконченными. 
+	Одним из источников вдохновения стали саундтреки 
+	для кинофильмов, которые группа производила в больших количествах.&lt;/description&gt;
+	&lt;age unit=&quot;year&quot;&gt;18&lt;/age&gt;	
+	&lt;barcode&gt;2345678901234&lt;/barcode&gt;
+&lt;/offer&gt;

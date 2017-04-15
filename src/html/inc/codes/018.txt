@@ -1,0 +1,23 @@
+
+&lt;offer id=&quot;12341&quot; available=&quot;true&quot; selling_type=&quot;w&quot;&gt;
+	&lt;name&gt;#NAME#&lt;/name&gt;
+	&lt;available&gt;true&lt;/available&gt;
+	&lt;price&gt;16800&lt;/price&gt;
+	&lt;oldprice&gt;19800&lt;/oldprice&gt;
+	&lt;currencyId&gt;USD&lt;/currencyId&gt;
+	&lt;categoryId&gt;6&lt;/categoryId&gt;
+	&lt;picture&gt;http://best.seller.ru/img/device12345.jpg&lt;/picture&gt;
+	&lt;picture&gt;http://best.seller.ru/img/device12346.jpg&lt;/picture&gt;
+	&lt;picture&gt;http://best.seller.ru/img/device12347.jpg&lt;/picture&gt;
+	&lt;typePrefix&gt;Принтер&lt;/typePrefix&gt;
+	&lt;vendor&gt;НP&lt;/vendor&gt;
+	&lt;vendorCode&gt;CH366C&lt;/vendorCode&gt;
+	&lt;model&gt;Deskjet D2663&lt;/model&gt;
+	&lt;description&gt;Серия принтеров для людей, которым нужен надежный, простой в использовании
+	цветной принтер для повседневной печати. Формат А4. Технология печати: 4-цветная термальная струйная.
+	Разрешение при печати: 4800х1200 т/д.
+	&lt;/description&gt;
+	&lt;country&gt;Япония&lt;/country&gt;
+	&lt;barcode&gt;1234567890120&lt;/barcode&gt;
+	&lt;param name=&quot;Максимальный формат&quot; unit=&quot;мм&quot;&gt;210&lt;/param&gt;
+&lt;/offer&gt;

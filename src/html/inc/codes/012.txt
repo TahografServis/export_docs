@@ -1,0 +1,20 @@
+
+&lt;offer id=&quot;0123456&quot; available=&quot;true&quot;&gt;
+	&lt;url&gt;http://www.надежнаятехника.рф/catalog/element/index.php?from=ya_market&amp;amp;utm_source=ya_market&amp;amp;utm_medium=cpc&amp;amp&lt;/url&gt;
+	&lt;price&gt;1620.00&lt;/price&gt;
+	&lt;oldprice&gt;1800.00&lt;/oldprice&gt;
+	&lt;currencyId&gt;RUB&lt;/currencyId&gt;
+	&lt;categoryId&gt;19&lt;/categoryId&gt;
+	&lt;picture&gt;http://89.123.45.678/catalog/photo/19/6.JPG&lt;/picture&gt;
+	&lt;store&gt;false&lt;/store&gt;
+	&lt;pickup&gt;true&lt;/pickup&gt;
+	&lt;delivery&gt;false&lt;/delivery&gt;
+	&lt;name&gt;Антивирус ESET NOD32 Platinum Edition&lt;/name&gt;
+	&lt;vendor&gt;Eset&lt;/vendor&gt;
+	&lt;vendorCode&gt;NOD32-ENA-NS(BOX)-2-1&lt;/vendorCode&gt;
+	&lt;description&gt;Антивирус ESET NOD32 Platinum Edition - лицензия на 2 года NOD32-ENA-NS(BOX)-2-1&lt;/description&gt;
+	&lt;sales_notes&gt;Оплата: Наличные, Б/Н, пластиковые карты, кредит&lt;/sales_notes&gt;
+	&lt;manufacturer_warranty&gt;true&lt;/manufacturer_warranty&gt;
+	&lt;country_of_origin&gt;Россия&lt;/country_of_origin&gt;
+	&lt;age unit=&quot;year&quot;&gt;18&lt;/age&gt;
+&lt;/offer&gt;

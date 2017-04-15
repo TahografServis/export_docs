@@ -1,0 +1,28 @@
+
+&lt;item&gt;
+	&lt;g:id&gt;TV_123456&lt;/g:id&gt;
+	&lt;g:item_group_id&gt;124&lt;/g:item_group_id&gt;
+	&lt;g:title&gt;LG 22LB4510 - 22&quot; LED TV - 1080p (FullHD)&lt;/g:title&gt;
+	&lt;g:description&gt;Attractively styled and boasting stunning picture quality,
+		the LG 22LB4510 - 22&amp;quot; LED TV - 1080p (FullHD) is an excellent television/monitor.
+		The LG 22LB4510 - 22&amp;quot; LED TV - 1080p (FullHD) sports a widescreen 1080p panel,
+		perfect for watching movies in their original format, whilst also providing plenty of
+		working space for your other applications.&lt;/g:description&gt;
+	&lt;g:link&gt;http://www.example.com/electronics/tv/22LB4510.html&lt;/g:link&gt;
+	&lt;g:image_link&gt;http://images.example.com/TV_123456.png&lt;/g:image_link&gt;
+	&lt;g:condition&gt;used&lt;/g:condition&gt;
+	&lt;g:availability&gt;in stock&lt;/g:availability&gt;
+	&lt;g:price&gt;159.00 USD&lt;/g:price&gt;
+	&lt;g:shipping&gt;
+		&lt;g:country&gt;US&lt;/g:country&gt;
+		&lt;g:service&gt;Standard&lt;/g:service&gt;
+		&lt;g:price&gt;14.95 USD&lt;/g:price&gt;
+	&lt;/g:shipping&gt;
+	
+	&lt;g:gtin&gt;71919219405200&lt;/g:gtin&gt;
+	&lt;g:brand&gt;LG&lt;/g:brand&gt;
+	&lt;g:mpn&gt;22LB4510/US&lt;/g:mpn&gt;
+	
+	&lt;g:google_product_category&gt;Electronics &gt; Video &gt; Televisions &gt; Flat Panel Televisions&lt;/g:google_product_category&gt;
+	&lt;g:product_type&gt;Consumer Electronics &amp;gt; TVs &amp;gt; Flat Panel TVs&lt;/g:product_type&gt;
+&lt;/item&gt;

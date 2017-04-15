@@ -1,0 +1,8 @@
+
+&lt;item&gt;
+	&lt;g:id&gt;TV_123456&lt;/g:id&gt;
+	&lt;g:availability&gt;in stock&lt;/g:availability&gt;
+	&lt;g:price&gt;159.00 USD&lt;/g:price&gt;
+	&lt;g:sale_price&gt;150.00 USD&lt;/g:sale_price&gt;
+	&lt;g:sale_price_effective_date&gt;2016–02–24T11:07:31+0100&lt;/g:sale_price_effective_date&gt;
+&lt;/item&gt;

@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+    <title>Документация по экспорту товаров на разные площадки</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="container_wrapper">
+          <h1 class="text-center">Документация по экспорту товаров на разные площадки</h1>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Наименование</th>
+                <th>Описание</th>
+                <th>Пример кода</th>
+                <th>Ссылка</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Yandex.Market</td>
+                <td>упрощённое описание<br>
+                  <p class="text-center">(ym_simple)</p>
+                </td>
+                <td>
+                  <pre lang="html" class="code">
+&lt;offer id=&quot;12346&quot; available=&quot;true&quot; bid=&quot;21&quot;&gt;
+	&lt;url&gt;http://best.seller.ru/product_page.asp?pid=12348&lt;/url&gt;
+	&lt;price&gt;600&lt;/price&gt;
+	&lt;currencyId&gt;USD&lt;/currencyId&gt;
+	&lt;categoryId&gt;6&lt;/categoryId&gt;
+	&lt;picture&gt;http://best.seller.ru/img/device12345.jpg&lt;/picture&gt;
+	&lt;store&gt;false&lt;/store&gt;
+	&lt;pickup&gt;true&lt;/pickup&gt;
+	&lt;delivery&gt;false&lt;/delivery&gt;
+	&lt;delivery-options&gt; 
+		&lt;option cost=&quot;300&quot; days=&quot;0&quot; order-before=&quot;14&quot;/&gt; 
+	&lt;/delivery-options&gt;
+	&lt;name&gt;Наручные часы Casio A1234567B&lt;/name&gt;
+	&lt;vendor&gt;Casio&lt;/vendor&gt;
+	&lt;vendorCode&gt;A1234567B&lt;/vendorCode&gt;
+	&lt;description&gt;Изящные наручные часы.&lt;/description&gt;
+	&lt;sales_notes&gt;Необходима предоплата.&lt;/sales_notes&gt;
+	&lt;manufacturer_warranty&gt;true&lt;/manufacturer_warranty&gt;
+	&lt;country_of_origin&gt;Япония&lt;/country_of_origin&gt;
+	&lt;age unit=&quot;year&quot;&gt;18&lt;/age&gt;
+	&lt;barcode&gt;0123456789012&lt;/barcode&gt;
+	&lt;cpa&gt;1&lt;/cpa&gt;  
+&lt;/offer&gt;</pre>
+                </td>
+                <td><a href="https://yandex.ru/support/partnermarket/offers.xml" target="_blank" class="linkpovider">https://yandex.ru/support/partnermarket/offers.xml</a></td>
+              </tr>
+              <tr>
+                <td>Yandex.Market</td>
+                <td>Произвольный товар<br>
+                  <p class="text-center">(ym_vendor_model)</p>
+                </td>
+                <td>
+                  <pre lang="html" class="code">
+&lt;offer id=&quot;12341&quot; type=&quot;vendor.model&quot; available=&quot;true&quot; bid=&quot;13&quot;&gt;
+	&lt;url&gt;http://best.seller.ru/product_page.asp?pid=12344&lt;/url&gt;
+	&lt;price&gt;16800&lt;/price&gt;
+	&lt;oldprice&gt;17000&lt;/oldprice&gt;
+	&lt;currencyId&gt;USD&lt;/currencyId&gt;
+	&lt;categoryId&gt;6&lt;/categoryId&gt;
+	&lt;picture&gt;http://best.seller.ru/img/device12345.jpg&lt;/picture&gt;
+	&lt;store&gt;false&lt;/store&gt;
+	&lt;pickup&gt;false&lt;/pickup&gt;
+	&lt;delivery&gt;true&lt;/delivery&gt;
+	&lt;delivery-options&gt; 
+		&lt;option cost=&quot;300&quot; days=&quot;0&quot; order-before=&quot;14&quot;/&gt; 
+	&lt;/delivery-options&gt;
+	&lt;typePrefix&gt;Принтер&lt;/typePrefix&gt;
+	&lt;vendor&gt;НP&lt;/vendor&gt;
+	&lt;vendorCode&gt;CH366C&lt;/vendorCode&gt;
+	&lt;model&gt;Deskjet D2663&lt;/model&gt;
+	&lt;description&gt;Серия принтеров для людей, которым нужен надежный, простой в использовании 
+	цветной принтер для повседневной печати. Формат А4. Технология печати: 4-цветная термальная струйная. 
+	Разрешение при печати: 4800х1200 т/д.
+	&lt;/description&gt;
+	&lt;sales_notes&gt;Необходима предоплата.&lt;/sales_notes&gt;
+	&lt;manufacturer_warranty&gt;true&lt;/manufacturer_warranty&gt;
+	&lt;country_of_origin&gt;Япония&lt;/country_of_origin&gt;
+	&lt;barcode&gt;1234567890120&lt;/barcode&gt;
+	&lt;cpa&gt;1&lt;/cpa&gt;
+	&lt;rec&gt;123123,1214,243&lt;/rec&gt;
+	&lt;expiry&gt;P5Y&lt;/expiry&gt;
+	&lt;weight&gt;2.07&lt;/weight&gt;
+	&lt;dimensions&gt;100/25.45/11.112&lt;/dimensions&gt;
+	&lt;param name=&quot;Максимальный формат&quot;&gt;А4&lt;/param&gt;
+	&lt;param name=&quot;Технология печати&quot;&gt;термическая струйная&lt;/param&gt;
+	&lt;param name=&quot;Тип печати&quot;&gt;Цветная&lt;/param&gt;
+	&lt;param name=&quot;Количество страниц в месяц&quot; unit=&quot;стр&quot;&gt;1000&lt;/param&gt;
+	&lt;param name=&quot;Потребляемая мощность&quot; unit=&quot;Вт&quot;&gt;20&lt;/param&gt;
+	&lt;param name=&quot;Вес&quot; unit=&quot;кг&quot;&gt;2.73&lt;/param&gt;
+&lt;/offer&gt;</pre>
+                </td>
+                <td><a href="https://yandex.ru/support/partnermarket/export/vendor-model.xml" target="_blank" class="linkpovider">https://yandex.ru/support/partnermarket/export/vendor-model.xml</a></td>
+              </tr>
+              <tr>
+                <td>Yandex.Market</td>
+                <td>Книги <br>
+                  <p class="text-center">(ym_book)</p>
+                </td>
+                <td>
+                  <pre lang="html" class="code">
+&lt;offer id=&quot;12342&quot; type=&quot;book&quot; available=&quot;true&quot; bid=&quot;17&quot;&gt;
+	&lt;url&gt;http://best.seller.ru/product_page.asp?pid=14345&lt;/url&gt;
+	&lt;price&gt;80&lt;/price&gt;
+	&lt;currencyId&gt;RUR&lt;/currencyId&gt;
+	&lt;categoryId&gt;3&lt;/categoryId&gt;
+	&lt;picture&gt;http://best.seller.ru/product_page.asp?pid=14345.jpg&lt;/picture&gt;
+	&lt;store&gt;false&lt;/store&gt;
+	&lt;pickup&gt;false&lt;/pickup&gt;
+	&lt;delivery&gt;true&lt;/delivery&gt;
+	&lt;delivery-options&gt; 
+		&lt;option cost=&quot;300&quot; days=&quot;0&quot; order-before=&quot;14&quot;/&gt; 
+	&lt;/delivery-options&gt;
+	&lt;author&gt;Александра Маринина&lt;/author&gt;
+	&lt;name&gt;Все не так. В 2 томах. Том 1&lt;/name&gt;
+	&lt;publisher&gt;Эксмо&lt;/publisher&gt;
+	&lt;series&gt;А. Маринина — королева детектива&lt;/series&gt;
+	&lt;year&gt;2007&lt;/year&gt;
+	&lt;ISBN&gt;978-5-699-23647-3&lt;/ISBN&gt;
+	&lt;volume&gt;2&lt;/volume&gt;
+	&lt;part&gt;1&lt;/part&gt;
+	&lt;language&gt;rus&lt;/language&gt;
+	&lt;binding&gt;70x90/32&lt;/binding&gt;
+	&lt;page_extent&gt;288&lt;/page_extent&gt;
+	&lt;description&gt;Все прекрасно в большом патриархальном семействе
+	Руденко. Но — увы! — впечатление это обманчиво: каждого из многочисленных
+	представителей семьи обуревают свои потаенные 
+	страсти и запретные желания.&lt;/description&gt;
+	&lt;downloadable&gt;false&lt;/downloadable&gt;
+	&lt;age unit=&quot;year&quot;&gt;18&lt;/age&gt;
+&lt;/offer&gt;</pre>
+                </td>
+                <td><a href="https://yandex.ru/support/partnermarket/export/books.xml" target="_blank" class="linkpovider">https://yandex.ru/support/partnermarket/export/books.xml</a></td>
+              </tr>
+              <tr>
+                <td>Yandex.Market</td>
+                <td>Аудиокниги <br>
+                  <p class="text-center">(ym_audiobook)</p>
+                </td>
+                <td>
+                  <pre lang="html" class="code">
+&lt;offer id=&quot;12342&quot; type=&quot;audiobook&quot; available=&quot;true&quot; bid=&quot;17&quot;&gt;
+	&lt;url&gt;http://best.seller.ru/product_page.asp?pid=14345&lt;/url&gt;
+	&lt;price&gt;200&lt;/price&gt;
+	&lt;currencyId&gt;RUR&lt;/currencyId&gt;
+	&lt;categoryId&gt;3&lt;/categoryId&gt;
+	&lt;picture&gt;http://best.seller.ru/product_page.asp?pid=14345.jpg&lt;/picture&gt;
+	&lt;author&gt;Владимир Кунин&lt;/author&gt;
+	&lt;name&gt;Иваnов и Rабинович, или Аj'гоу ту 'Хаjфа!&lt;/name&gt;
+	&lt;publisher&gt;1С-Паблишинг, Союз&lt;/publisher&gt;
+	&lt;year&gt;2008&lt;/year&gt;
+	&lt;ISBN&gt;978-5-9677-0757-5&lt;/ISBN&gt;
+	&lt;language&gt;ru&lt;/language&gt;
+	&lt;performed_by&gt;Николай Фоменко&lt;/performed_by&gt;
+	&lt;performance_type&gt;начитана &lt;/performance_type&gt;
+	&lt;storage&gt;CD&lt;/storage&gt;
+	&lt;format&gt;mp3&lt;/format&gt;
+	&lt;description&gt;Перу Владимира Кунина принадлежат десятки сценариев к кинофильмам,
+	серия книг про КЫСЮ и многое, многое другое.&lt;/description&gt;
+	&lt;downloadable&gt;true&lt;/downloadable&gt;
+	&lt;age unit=&quot;year&quot;&gt;18&lt;/age&gt;
+&lt;/offer&gt;</pre>
+                </td>
+                <td><a href="https://yandex.ru/support/partnermarket/export/audiobooks.xml" target="_blank" class="linkpovider">https://yandex.ru/support/partnermarket/export/audiobooks.xml</a></td>
+              </tr>
+              <tr>
+                <td>Yandex.Market</td>
+                <td>Музыкальная и видео продукция<br>
+                  <p class="text-center">(ym_multimedia)</p>
+                </td>
+                <td>
+                  <pre lang="html" class="code">
+&lt;offer id=&quot;12345&quot; type=&quot;artist.title&quot; available=&quot;true&quot; bid=&quot;11&quot;&gt;
+	&lt;url&gt;http://best.seller.ru/product_page.asp?pid=12946&lt;/url&gt;
+	&lt;price&gt;450&lt;/price&gt;
+	&lt;currencyId&gt;USD&lt;/currencyId&gt;
+	&lt;categoryId&gt;2&lt;/categoryId&gt;
+	&lt;picture&gt;http://best.seller.ru/product_page.asp?pid=14345.jpg&lt;/picture&gt;
+	&lt;store&gt;false&lt;/store&gt;
+	&lt;pickup&gt;false&lt;/pickup&gt;
+	&lt;delivery&gt;true&lt;/delivery&gt;
+	&lt;artist&gt;Pink Floyd&lt;/artist&gt;
+	&lt;title&gt;Dark Side Of The Moon, Platinum Disc&lt;/title&gt;
+	&lt;year&gt;1999&lt;/year&gt;
+	&lt;media&gt;CD&lt;/media&gt;
+	&lt;description&gt;Dark Side Of The Moon, поставивший мир на уши
+	невиданным сочетанием звуков, — это всего-навсего девять 
+	треков, и даже не все они писались специально для альбома. 
+	Порывшись по сусекам, участники Pink Floyd мудро сделали 
+	новое из хорошо забытого старого — песен, которые 
+	почему-либо не пошли в дело или остались незаконченными. 
+	Одним из источников вдохновения стали саундтреки 
+	для кинофильмов, которые группа производила в больших количествах.&lt;/description&gt;
+	&lt;age unit=&quot;year&quot;&gt;18&lt;/age&gt;	
+	&lt;barcode&gt;2345678901234&lt;/barcode&gt;
+&lt;/offer&gt;</pre>
+                </td>
+                <td><a href="https://yandex.ru/support/partnermarket/export/music-video.xml" target="_blank" class="linkpovider">https://yandex.ru/support/partnermarket/export/music-video.xml</a></td>
+              </tr>
+              <tr>
+                <td>Yandex.Market</td>
+                <td>Туры<br>
+                  <p class="text-center">(ym_tour)</p>
+                </td>
+                <td>
+                  <pre lang="html" class="code">
+&lt;offer id=&quot;12341&quot; type=&quot;tour&quot; available=&quot;true&quot; bid=&quot;71&quot;&gt;
+	&lt;url&gt;http://best.seller.ru/product_page.asp?pid=12344&lt;/url&gt;
+	&lt;price&gt;24129&lt;/price&gt;
+	&lt;currencyId&gt;USD&lt;/currencyId&gt;
+	&lt;categoryId&gt;6&lt;/categoryId&gt;
+	&lt;picture&gt;http://best.seller.ru/img/device12345.jpg&lt;/picture&gt;
+	&lt;store&gt;false&lt;/store&gt;
+	&lt;pickup&gt;true&lt;/pickup&gt;
+	&lt;delivery&gt;false&lt;/delivery&gt;
+	&lt;worldRegion&gt;Африка&lt;/worldRegion&gt;
+	&lt;country&gt;Египет&lt;/country&gt;
+	&lt;region&gt;Хургада&lt;/region&gt;
+	&lt;days&gt;7&lt;/days&gt;
+	&lt;dataTour&gt;2012-01-01 12:00:00&lt;/dataTour&gt;
+	&lt;dataTour&gt;2012-01-08 12:00:00&lt;/dataTour&gt;
+	&lt;name&gt;Hilton&lt;/name&gt;
+	&lt;hotel_stars&gt;5*****&lt;/hotel_stars&gt;
+	&lt;room&gt;SNG&lt;/room&gt;
+	&lt;meal&gt;ALL&lt;/meal&gt;
+	&lt;included&gt;авиаперелет, трансфер, проживание, питание, страховка&lt;/included&gt;
+	&lt;transport&gt;Авиа&lt;/transport&gt;
+	&lt;description&gt;Отдых в Египте.&lt;/description&gt;
+	&lt;price_min&gt;24000&lt;/price_min&gt;
+	&lt;price_max&gt;25000&lt;/price_max&gt;
+	&lt;options&gt;?&lt;/options&gt;
+&lt;/offer&gt;</pre>
+                </td>
+                <td><a href="https://yandex.ru/support/partnermarket/export/tours.xml" target="_blank" class="linkpovider">https://yandex.ru/support/partnermarket/export/tours.xml</a></td>
+              </tr>
+              <tr>
+                <td>Yandex.Market</td>
+                <td>Одежда, обувь и аксессуары<br>
+                  <p class="text-center">(ym_clothes)</p>
+                </td>
+                <td>
+                  <pre lang="html" class="code">
+&lt;offer id=&quot;321&quot; type=&quot;vendor.model&quot; available=&quot;true&quot; bid=&quot;13&quot; group_id=&quot;22&quot;&gt;
+	&lt;url&gt;http://best.clothes.ru/product_page.asp?pid=12344&lt;/url&gt;
+	&lt;price&gt;5400&lt;/price&gt;
+	&lt;oldprice&gt;6500&lt;/oldprice&gt;
+	&lt;currencyId&gt;RUR&lt;/currencyId&gt;
+	&lt;categoryId&gt;6&lt;/categoryId &gt;
+	&lt;market_category&gt;Одежда, обувь и аксессуары/Женская одежда/Белье и купальники/Комплекты&lt;/market_category&gt;
+	&lt;picture&gt;http://best.seller.ru/img/picture1.jpg&lt;/picture&gt;
+	&lt;picture&gt;http://best.seller.ru/img/picture2.jpg&lt;/picture&gt;
+	&lt;store&gt;true&lt;/store&gt;
+	&lt;pickup&gt;false&lt;/pickup&gt;
+	&lt;delivery&gt;true&lt;/delivery&gt;
+	&lt;delivery-options&gt;
+		&lt;option cost=&quot;200&quot; days=&quot;1&quot; order-before=&quot;14&quot;/&gt;
+	&lt;/delivery-options&gt;
+	&lt;vendor&gt;Thriumph&lt;/vendor&gt;
+	&lt;model&gt;Комлект&lt;/model&gt;
+	&lt;description&gt;
+		Яркий полупрозрачный комплект, состоящий из бюстгальтера и трусиков. 
+		Украшен рисунком в горошек. Бюстгальтер тонких бретельках регулируемой длины.
+	&lt;/description&gt;
+	&lt;country_of_origin&gt;Китай&lt;/country_of_origin&gt;
+	&lt;barcode&gt;0123456789012&lt;/barcode&gt;
+	&lt;param name=&quot;Чашка&quot; unit=&quot;RU&quot;&gt;B&lt;/param&gt;
+	&lt;param name=&quot;Обхват груди&quot; unit=&quot;см&quot;&gt;95&lt;/param&gt;
+	&lt;param name=&quot;Размер трусов&quot; unit=&quot;INT&quot;&gt;M&lt;/param&gt;
+	&lt;param name=&quot;Цвет&quot;&gt;Красный&lt;/param&gt;
+	&lt;param name=&quot;Пол&quot;&gt;Женский&lt;/param&gt;
+	&lt;param name=&quot;Возраст&quot;&gt;Взрослый&lt;/param&gt;
+	&lt;param name=&quot;Материал&quot;&gt;100% Нейлон&lt;/param&gt;
+&lt;/offer&gt;</pre>
+                </td>
+                <td><a href="https://yandex.ru/support/partnermarket/guides/clothes.xml" target="_blank" class="linkpovider">https://yandex.ru/support/partnermarket/guides/clothes.xml</a></td>
+              </tr>
+              <tr>
+                <td>Yandex.Market</td>
+                <td>Косметика, парфюмерия и уход<br>
+                  <p class="text-center">(ym_cosmetics)</p>
+                </td>
+                <td>
+                  <pre lang="html" class="code">
+&lt;offer id=&quot;1234148&quot; type=&quot;vendor.model&quot; available=&quot;true&quot; bid=&quot;80&quot; group_id=&quot;12345&quot;&gt;
+	&lt;url&gt;http://best.cosm.ru/product_page.asp?pid=12344&lt;/url&gt;
+	&lt;price&gt;1000&lt;/price&gt;
+	&lt;currencyId&gt;RUR&lt;/currencyId&gt;
+	&lt;categoryId&gt;6&lt;/categoryId &gt;
+	&lt;market_category&gt;Красота и здоровье/Косметика, парфюмерия и уход/Макияж/Помада и контур для губ&lt;/market_category&gt;
+	&lt;picture&gt;http://best.cosm.ru/img/picture1.jpg&lt;/picture&gt;
+	&lt;picture&gt;http://best.cosm.ru/img/picture2.jpg&lt;/picture&gt;
+	&lt;picture&gt;http://best.cosm.ru/img/picture3.jpg&lt;/picture&gt;
+	&lt;picture&gt;http://best.cosm.ru/img/picture4.jpg&lt;/picture&gt;
+	&lt;store&gt;true&lt;/store&gt;
+	&lt;pickup&gt;false&lt;/pickup&gt;
+	&lt;delivery&gt;true&lt;/delivery&gt;
+	&lt;delivery-options&gt;
+	  &lt;option cost=&quot;200&quot; days=&quot;1&quot; order-before=&quot;14&quot;/&gt;
+	&lt;/delivery-options&gt;
+	&lt;typePrefix&gt;Губная помада&lt;/typePrefix&gt;
+	&lt;vendor&gt;CHRISTIAN DIOR&lt;/vendor&gt;
+	&lt;model&gt;Dior Addict&lt;/model&gt;
+	&lt;description&gt;Новая губная помада Dior Addict – это признание в любви красоте и стилю, цвету и его
+	вдохновению, энергии и магнетизму Dior. Палитра, включающая 44 оттенка, позволяет создать настоящий
+	подиумный образ. Невесомая текстура и волнующая гамма оттенков Addict отвечает последним модным
+	тенденциям. Новая помада отличается более нежной текстурой и интенсивным блеском, в нее влюбляешься
+	с первого взгляда.&lt;/description&gt;
+	&lt;barcode&gt;123948637284&lt;/barcode&gt;
+	&lt;param name=&quot;Цвет&quot;&gt;445 Createur&lt;/param&gt;
+	&lt;param name=&quot;RGB&quot;&gt;255,255,255&lt;/param&gt;
+	&lt;param name=&quot;Пол&quot;&gt;Женский&lt;/param&gt;
+	&lt;param name=&quot;Возраст&quot;&gt;Взрослый&lt;/param&gt;
+&lt;/offer&gt;</pre>
+                </td>
+                <td><a href="https://yandex.ru/support/partnermarket/guides/beauty.xml" target="_blank" class="linkpovider">https://yandex.ru/support/partnermarket/guides/beauty.xml</a></td>
+              </tr>
+              <tr>
+                <td>Yandex.Market</td>
+                <td>Билеты на мероприятие<br>
+                  <p class="text-center">(ym_event_ticket)</p>
+                </td>
+                <td>
+                  <pre lang="html" class="code">
+&lt;offer id=&quot;1234&quot; type=&quot;event-ticket&quot;  available=&quot;true&quot; bid=&quot;80&quot;&gt; 
+  &lt;url&gt;http://best.seller.ru/product_page.asp?pid=57384&lt;/url&gt;
+  &lt;price&gt;1000&lt;/price&gt;
+  &lt;oldprice&gt;1100&lt;/oldprice&gt;
+  &lt;currencyId&gt;RUR&lt;/currencyId&gt;
+  &lt;categoryId&gt;3&lt;/categoryId&gt; 
+  &lt;picture&gt;http://best.seller.ru/product_page.asp?pid=72945.jpg&lt;/picture&gt;
+  &lt;store&gt;false&lt;/store&gt;
+  &lt;pickup&gt;false&lt;/pickup&gt;
+  &lt;delivery&gt;true&lt;/delivery&gt;
+  &lt;local_delivery_cost&gt;300&lt;/local_delivery_cost&gt;
+  &lt;name&gt;Дмитрий Хворостовский и Национальный филармонический оркестр России...&lt;/name&gt;
+  &lt;place&gt;Московский  международный Дом музыки&lt;/place&gt;
+  &lt;hall&gt;Большой зал&lt;/hall&gt;
+  &lt;hall_part&gt;Партер р. 1-5&lt;hall_part&gt;
+  &lt;date&gt;2012-02-25 12:03:14&lt;/date&gt; 
+  &lt;is_premiere&gt;0&lt;is_premiere&gt;
+  &lt;is_kids&gt;0&lt;/is_kids&gt;
+  &lt;description&gt;
+  Концерт Дмитрия Хворостовского и Национального филармонического оркестра России...
+  &lt;/description&gt;
+  &lt;age&gt;6&lt;/age&gt;
+&lt;/offer&gt;</pre>
+                </td>
+                <td><a href="https://yandex.ru/support/partnermarket/export/event-tickets.xml" target="_blank" class="linkpovider">https://yandex.ru/support/partnermarket/export/event-tickets.xml</a></td>
+              </tr>
+              <tr>
+                <td>Yandex.Market</td>
+                <td>Лекарства<br>
+                  <p class="text-center">(ym_medicine)</p>
+                </td>
+                <td>
+                  <pre lang="html" class="code">
+&lt;offer id=&quot;12345&quot; available=&quot;true&quot; type=&quot;medicine&quot; bid=&quot;80&quot; cbid=&quot;90&quot;&gt;
+	&lt;currencyId&gt;RUB&lt;/currencyId&gt;
+	&lt;categoryId&gt;4062&lt;/categoryId&gt;
+	&lt;name&gt;БАД Селен-актив n30 таблетки&lt;/name&gt;
+	&lt;vendor&gt;ОАО ДИОД Завод эко.тех.и питания&lt;/vendor&gt;
+	&lt;vendorCode&gt;123456&lt;/vendorCode&gt;
+	&lt;url&gt;http://www.example-apteka.ru/selen-aktiv.html&lt;/url&gt;
+	&lt;picture&gt;http://www.example-apteka.ru/selen-aktiv.jpg&lt;/picture&gt;
+	&lt;price&gt;1000&lt;/price&gt;
+	&lt;delivery&gt;false&lt;/delivery&gt;
+	&lt;pickup&gt;true&lt;/pickup&gt;
+	&lt;store&gt;true&lt;/store&gt;
+	&lt;barcode&gt;4981046350037&lt;/barcode&gt;
+	&lt;sales_notes&gt;Самовывоз возможен через 3 часа после заказа&lt;/sales_notes&gt;
+	&lt;description&gt;Биоусвояемый селен 50 мкг, витамин С 50 мг. Селен-актив обеспечивает оптимальную и постоянную антиоксидантную защиту.&lt;/description&gt;
+	&lt;country_of_origin&gt;Россия&lt;/country_of_origin&gt;
+	&lt;expiry&gt;P1Y2M10DT2H30M&lt;/expiry&gt;
+	&lt;param name=&quot;Побочные действия&quot;&gt;нет&lt;/param&gt;
+	&lt;param name=&quot;Код egk&quot;&gt;123456&lt;/param&gt;
+&lt;/offer&gt;</pre>
+                </td>
+                <td><a href="https://yandex.ru/support/partnermarket/export/medicine.xml" target="_blank" class="linkpovider">https://yandex.ru/support/partnermarket/export/medicine.xml</a></td>
+              </tr>
+              <tr>
+                <td>Yandex.Realty</td>
+                <td>Недвижимость<br>
+                  <p class="text-center">(ym_realty)</p>
+                </td>
+                <td>
+                  <pre lang="html" class="code">
+&lt;offer internal-id=&quot;7&quot;&gt;
+	&lt;type&gt;продажа&lt;/type&gt;
+	&lt;property-type&gt;жилая&lt;/property-type&gt;
+	&lt;category&gt;дом с участком&lt;/category&gt;
+	&lt;url&gt;http://yandex.ru/7/&lt;/url&gt;
+	&lt;payed-adv&gt;1&lt;/payed-adv&gt;
+	&lt;manually-added&gt;1&lt;/manually-added&gt;
+	&lt;creation-date&gt;2010-12-05T00:00:00+04:00&lt;/creation-date&gt;
+	&lt;expire-date&gt;2011-12-12T00:00:00+04:00&lt;/expire-date&gt;
+	&lt;last-update-date&gt;2010-12-12T00:00:00+04:00&lt;/last-update-date&gt;
+	&lt;location&gt;
+			&lt;country&gt;Россия&lt;/country&gt;
+			&lt;region&gt;Тверская область&lt;/region&gt;
+			&lt;district&gt;Вышневолоцкий район&lt;/district&gt;
+			&lt;locality-name&gt;г.Вышний Волочек&lt;/locality-name&gt;
+			&lt;railway-station&gt;Вышний Волочек&lt;/railway-station&gt;
+	&lt;/location&gt;
+	&lt;sales-agent&gt;
+			&lt;name&gt;Алексей&lt;/name&gt;
+			&lt;phone&gt;8-903-808-00-53&lt;/phone&gt;
+			&lt;category&gt;агентство&lt;/category&gt;
+			&lt;organization&gt;Агентство недвижимости РУССКИЙ ДОМ&lt;/organization&gt;
+			&lt;url&gt;http://anrd.ru/&lt;/url&gt;
+			&lt;email&gt;anrusdom@ya.ru&lt;/email&gt;
+	&lt;/sales-agent&gt;
+	&lt;price&gt;
+			&lt;value&gt;2300000&lt;/value&gt;
+			&lt;currency&gt;RUR&lt;/currency&gt;
+	&lt;/price&gt;
+	&lt;haggle&gt;1&lt;/haggle&gt;
+	&lt;mortgage&gt;1&lt;/mortgage&gt;
+	&lt;image&gt;http://yandex.ru/components/com_estateagent/pictures/ea1279882313.jpg&lt;/image&gt;
+	&lt;image&gt;http://yandex.ru/components/com_estateagent/pictures/ea1279882363.jpg&lt;/image&gt;
+	&lt;image&gt;http://yandex.ru/components/com_estateagent/pictures/ea1279882395.jpg&lt;/image&gt;
+	&lt;image&gt;http://yandex.ru/components/com_estateagent/pictures/ea1279882424.jpg&lt;/image&gt;
+	&lt;image&gt;http://yandex.ru/components/com_estateagent/pictures/ea1279882615.jpg&lt;/image&gt;
+	&lt;image&gt;http://yandex.ru/components/com_estateagent/pictures/ea1279882707.jpg&lt;/image&gt;
+	&lt;image&gt;http://yandex.ru/components/com_estateagent/pictures/ea1279882762.jpg&lt;/image&gt;
+	&lt;description&gt;Тверская область, г.Вышний Волочек ( От МКАД 320км — по асфальтированной дороге.)
+		Продаю дом 80 кв.м с земельным участком 7 соток.
+		В доме — вода, газовое отопление, электричество. 3 комнаты, кухня, ванная, туалет.
+		Земельный участок разработан. На участке — гараж, баня, хоз.постройки.
+	&lt;/description&gt;
+	&lt;quality&gt;хорошее&lt;/quality&gt;
+	&lt;area&gt;
+		&lt;value&gt;80&lt;/value&gt;
+		&lt;unit&gt;кв.м&lt;/unit&gt;
+	&lt;/area&gt;
+	&lt;lot-area&gt;
+		&lt;value&gt;7&lt;/value&gt;
+		&lt;unit&gt;cот.&lt;/unit&gt;
+	&lt;/lot-area&gt;
+	&lt;living-space&gt;
+		&lt;value&gt;61&lt;/value&gt;
+		&lt;unit&gt;кв.м&lt;/unit&gt;
+	&lt;/living-space&gt;
+	&lt;kitchen-space&gt;
+		&lt;value&gt;9&lt;/value&gt;
+		&lt;unit&gt;кв.м&lt;/unit&gt;
+	&lt;/kitchen-space&gt;
+	&lt;lot-type&gt;ИЖС&lt;/lot-type&gt;
+	&lt;rooms&gt;3&lt;/rooms&gt;
+	&lt;kitchen-furniture&gt;1&lt;/kitchen-furniture&gt;
+	&lt;balcony&gt;0&lt;/balcony&gt;
+	&lt;bathroom-unit&gt;совмещенный&lt;/bathroom-unit&gt;
+	&lt;floors-total&gt;1&lt;/floors-total&gt;
+	&lt;building-type&gt;деревянный&lt;/building-type&gt;
+	&lt;pmg&gt;1&lt;/pmg&gt;
+	&lt;is-elite&gt;0&lt;/is-elite&gt;
+	&lt;toilet&gt;в доме&lt;/toilet&gt;
+	&lt;shower&gt;в доме&lt;/shower&gt;
+	&lt;kitchen&gt;1&lt;/kitchen&gt;
+	&lt;heating-supply&gt;1&lt;/heating-supply&gt;
+	&lt;water-supply&gt;1&lt;/water-supply&gt;
+	&lt;electricity-supply&gt;1&lt;/electricity-supply&gt;
+	&lt;sewerage-supply&gt;1&lt;/sewerage-supply&gt;
+	&lt;gas-supply&gt;1&lt;/gas-supply&gt;
+	&lt;parking&gt;1&lt;/parking&gt;
+	&lt;alarm&gt;0&lt;/alarm&gt;
+	&lt;pool&gt;0&lt;/pool&gt;
+	&lt;sauna&gt;1&lt;/sauna&gt;
+&lt;/offer&gt;</pre>
+                </td>
+                <td><a href="https://yandex.ru/support/realty/partners/requirements.xml" target="_blank" class="linkpovider">https://yandex.ru/support/realty/partners/requirements.xml</a></td>
+              </tr>
+              <tr>
+                <td>Yandex.Dynamic</td>
+                <td>Упрощенное описание<br>
+                  <p class="text-center">(ym_dynamic_simple)</p>
+                </td>
+                <td>
+                  <pre lang="html" class="code">
+&lt;offer id=&quot;0123456&quot; available=&quot;true&quot;&gt;
+	&lt;url&gt;http://www.надежнаятехника.рф/catalog/element/index.php?from=ya_market&amp;amp;utm_source=ya_market&amp;amp;utm_medium=cpc&amp;amp&lt;/url&gt;
+	&lt;price&gt;1620.00&lt;/price&gt;
+	&lt;oldprice&gt;1800.00&lt;/oldprice&gt;
+	&lt;currencyId&gt;RUB&lt;/currencyId&gt;
+	&lt;categoryId&gt;19&lt;/categoryId&gt;
+	&lt;picture&gt;http://89.123.45.678/catalog/photo/19/6.JPG&lt;/picture&gt;
+	&lt;store&gt;false&lt;/store&gt;
+	&lt;pickup&gt;true&lt;/pickup&gt;
+	&lt;delivery&gt;false&lt;/delivery&gt;
+	&lt;name&gt;Антивирус ESET NOD32 Platinum Edition&lt;/name&gt;
+	&lt;vendor&gt;Eset&lt;/vendor&gt;
+	&lt;vendorCode&gt;NOD32-ENA-NS(BOX)-2-1&lt;/vendorCode&gt;
+	&lt;description&gt;Антивирус ESET NOD32 Platinum Edition - лицензия на 2 года NOD32-ENA-NS(BOX)-2-1&lt;/description&gt;
+	&lt;sales_notes&gt;Оплата: Наличные, Б/Н, пластиковые карты, кредит&lt;/sales_notes&gt;
+	&lt;manufacturer_warranty&gt;true&lt;/manufacturer_warranty&gt;
+	&lt;country_of_origin&gt;Россия&lt;/country_of_origin&gt;
+	&lt;age unit=&quot;year&quot;&gt;18&lt;/age&gt;
+&lt;/offer&gt;</pre>
+                </td>
+                <td><a href="https://yandex.ru/support/direct/features/dynamic-text-ads_feed.xml" target="_blank" class="linkpovider">https://yandex.ru/support/direct/features/dynamic-text-ads_feed.xml</a></td>
+              </tr>
+              <tr>
+                <td>Yandex.Dynamic</td>
+                <td>Произвольный товар<br>
+                  <p class="text-center">(ym_dynamic_vendormodel)</p>
+                </td>
+                <td>
+                  <pre lang="html" class="code">
+&lt;offer id=&quot;1234567&quot; type=&quot;vendor.model&quot; available=&quot;true&quot;&gt;
+	&lt;url&gt;http://www.надежнаятехника.рф/catalog/element/index.php?from=ya_market&amp;amp;utm_source=ya_market&amp;amp;utm_medium=cpc&amp;amp&lt;/url&gt;
+	&lt;price&gt;889.00&lt;/price&gt;
+	&lt;oldprice&gt;17000.00&lt;/oldprice&gt;
+	&lt;currencyId&gt;RUR&lt;/currencyId&gt;
+	&lt;categoryId&gt;1111&lt;/categoryId&gt;
+	&lt;picture&gt;http://89.123.45.678/catalog/photo/19/6.JPG&lt;/picture&gt;
+	&lt;store&gt;false&lt;/store&gt;
+	&lt;pickup&gt;false&lt;/pickup&gt;
+	&lt;delivery&gt;true&lt;/delivery&gt;
+	&lt;typePrefix&gt;Принтер&lt;/typePrefix&gt;
+	&lt;vendor&gt;НP&lt;/vendor&gt;
+	&lt;model&gt;Deskjet D2663&lt;/model&gt;
+	&lt;description&gt;
+	Серия принтеров для людей, которым нужен надежный, простой в использовании цветной принтер для повседневной печати...
+	&lt;/description&gt;
+	&lt;sales_notes&gt;Необходима предоплата.&lt;/sales_notes&gt;
+	&lt;manufacturer_warranty&gt;true&lt;/manufacturer_warranty&gt;
+	&lt;country_of_origin&gt;Япония&lt;/country_of_origin&gt;
+&lt;/offer&gt;</pre>
+                </td>
+                <td><a href="https://yandex.ru/support/direct/features/dynamic-text-ads_feed.xml" target="_blank" class="linkpovider">https://yandex.ru/support/direct/features/dynamic-text-ads_feed.xml</a></td>
+              </tr>
+              <tr>
+                <td>Google</td>
+                <td>Google Merchants<br>
+                  <!--p.text-center (ym_dynamic_vendormodel)-->
+                </td>
+                <td>
+                  <pre lang="html" class="code">
+&lt;item&gt;
+	&lt;g:id&gt;TV_123456&lt;/g:id&gt;
+	&lt;g:item_group_id&gt;124&lt;/g:item_group_id&gt;
+	&lt;g:title&gt;LG 22LB4510 - 22&quot; LED TV - 1080p (FullHD)&lt;/g:title&gt;
+	&lt;g:description&gt;Attractively styled and boasting stunning picture quality,
+		the LG 22LB4510 - 22&amp;quot; LED TV - 1080p (FullHD) is an excellent television/monitor.
+		The LG 22LB4510 - 22&amp;quot; LED TV - 1080p (FullHD) sports a widescreen 1080p panel,
+		perfect for watching movies in their original format, whilst also providing plenty of
+		working space for your other applications.&lt;/g:description&gt;
+	&lt;g:link&gt;http://www.example.com/electronics/tv/22LB4510.html&lt;/g:link&gt;
+	&lt;g:image_link&gt;http://images.example.com/TV_123456.png&lt;/g:image_link&gt;
+	&lt;g:condition&gt;used&lt;/g:condition&gt;
+	&lt;g:availability&gt;in stock&lt;/g:availability&gt;
+	&lt;g:price&gt;159.00 USD&lt;/g:price&gt;
+	&lt;g:shipping&gt;
+		&lt;g:country&gt;US&lt;/g:country&gt;
+		&lt;g:service&gt;Standard&lt;/g:service&gt;
+		&lt;g:price&gt;14.95 USD&lt;/g:price&gt;
+	&lt;/g:shipping&gt;
+	
+	&lt;g:gtin&gt;71919219405200&lt;/g:gtin&gt;
+	&lt;g:brand&gt;LG&lt;/g:brand&gt;
+	&lt;g:mpn&gt;22LB4510/US&lt;/g:mpn&gt;
+	
+	&lt;g:google_product_category&gt;Electronics &gt; Video &gt; Televisions &gt; Flat Panel Televisions&lt;/g:google_product_category&gt;
+	&lt;g:product_type&gt;Consumer Electronics &amp;gt; TVs &amp;gt; Flat Panel TVs&lt;/g:product_type&gt;
+&lt;/item&gt;</pre>
+                </td>
+                <td><a href="https://support.google.com/merchants/?hl=ru#topic=3404818" target="_blank" class="linkpovider">https://support.google.com/merchants/?hl=ru#topic=3404818</a></td>
+              </tr>
+              <tr>
+                <td>Google</td>
+                <td>Google Merchants online update<br>
+                  <!--p.text-center (ym_dynamic_vendormodel)-->
+                </td>
+                <td>
+                  <pre lang="html" class="code">
+&lt;item&gt;
+	&lt;g:id&gt;TV_123456&lt;/g:id&gt;
+	&lt;g:availability&gt;in stock&lt;/g:availability&gt;
+	&lt;g:price&gt;159.00 USD&lt;/g:price&gt;
+	&lt;g:sale_price&gt;150.00 USD&lt;/g:sale_price&gt;
+	&lt;g:sale_price_effective_date&gt;2016–02–24T11:07:31+0100&lt;/g:sale_price_effective_date&gt;
+&lt;/item&gt;</pre>
+                </td>
+                <td><a href="https://support.google.com/merchants/answer/6191341?hl=ru" target="_blank" class="linkpovider">https://support.google.com/merchants/answer/6191341?hl=ru</a></td>
+              </tr>
+              <tr>
+                <td>Wikimart</td>
+                <td>Одежда<br>
+                  <p class="text-center">(clothes)</p>
+                </td>
+                <td>
+                  <pre lang="html" class="code">
+&lt;item&gt;
+	&lt;g:id&gt;TV_123456&lt;/g:id&gt;
+	&lt;g:availability&gt;in stock&lt;/g:availability&gt;
+	&lt;g:price&gt;159.00 USD&lt;/g:price&gt;
+	&lt;g:sale_price&gt;150.00 USD&lt;/g:sale_price&gt;
+	&lt;g:sale_price_effective_date&gt;2016–02–24T11:07:31+0100&lt;/g:sale_price_effective_date&gt;
+&lt;/item&gt;</pre>
+                </td>
+                <td><a href="http://img.0cw.ru/docs/Wikimart_clothing_footwear_accessories.pdf?7b8f3f" target="_blank" class="linkpovider">http://img.0cw.ru/docs/Wikimart_clothing_footwear_accessories.pdf?7b8f3f</a></td>
+              </tr>
+              <tr>
+                <td>Wikimart</td>
+                <td>Произвольный товар<br>
+                  <p class="text-center">(vendor.model)</p>
+                </td>
+                <td>
+                  <pre lang="html" class="code">
+&lt;offer id=&quot;12346&quot; available=&quot;true&quot;&gt;
+	&lt;url&gt;http://best.seller.ru/product_page.asp?pid=12348&lt;/url&gt;
+	&lt;price&gt;600&lt;/price&gt;
+	&lt;currencyId&gt;USD&lt;/currencyId&gt;
+	&lt;categoryId&gt;6&lt;/categoryId&gt;
+	&lt;picture&gt;http://best.seller.ru/img/device12345.jpg&lt;/picture&gt;
+	&lt;name&gt;Casio A1234567B&lt;/name&gt;
+	&lt;typePrefix&gt;Наручные часы&lt;/typePrefix&gt;
+	&lt;vendor&gt;Casio&lt;/vendor&gt;
+	&lt;vendorCode&gt;A1234567B&lt;/vendorCode&gt;
+	&lt;description&gt;Изящные наручные часы&lt;/description&gt;
+	&lt;param name=&quot;Пол&quot;&gt;женские&lt;/param&gt;
+	&lt;manufacturer_warranty&gt;P2Y&lt;/manufacturer_warranty&gt;
+	&lt;country_of_origin&gt;Япония&lt;/country_of_origin&gt;
+&lt;/offer&gt;</pre>
+                </td>
+                <td><a href="http://img.0cw.ru/docs/Wikimart_common_instruction.pdf?c796e6" target="_blank" class="linkpovider">http://img.0cw.ru/docs/Wikimart_common_instruction.pdf?c796e6</a></td>
+              </tr>
+              <tr>
+                <td>Tiu.ru</td>
+                <td>Произвольный товар<br>
+                  <!--p.text-center (vendor.model)-->
+                </td>
+                <td>
+                  <pre lang="html" class="code">
+&lt;offer id=&quot;12341&quot; available=&quot;true&quot; selling_type=&quot;w&quot;&gt;
+	&lt;name&gt;#NAME#&lt;/name&gt;
+	&lt;available&gt;true&lt;/available&gt;
+	&lt;price&gt;16800&lt;/price&gt;
+	&lt;oldprice&gt;19800&lt;/oldprice&gt;
+	&lt;currencyId&gt;USD&lt;/currencyId&gt;
+	&lt;categoryId&gt;6&lt;/categoryId&gt;
+	&lt;picture&gt;http://best.seller.ru/img/device12345.jpg&lt;/picture&gt;
+	&lt;picture&gt;http://best.seller.ru/img/device12346.jpg&lt;/picture&gt;
+	&lt;picture&gt;http://best.seller.ru/img/device12347.jpg&lt;/picture&gt;
+	&lt;typePrefix&gt;Принтер&lt;/typePrefix&gt;
+	&lt;vendor&gt;НP&lt;/vendor&gt;
+	&lt;vendorCode&gt;CH366C&lt;/vendorCode&gt;
+	&lt;model&gt;Deskjet D2663&lt;/model&gt;
+	&lt;description&gt;Серия принтеров для людей, которым нужен надежный, простой в использовании
+	цветной принтер для повседневной печати. Формат А4. Технология печати: 4-цветная термальная струйная.
+	Разрешение при печати: 4800х1200 т/д.
+	&lt;/description&gt;
+	&lt;country&gt;Япония&lt;/country&gt;
+	&lt;barcode&gt;1234567890120&lt;/barcode&gt;
+	&lt;param name=&quot;Максимальный формат&quot; unit=&quot;мм&quot;&gt;210&lt;/param&gt;
+&lt;/offer&gt;</pre>
+                </td>
+                <td><a href="http://support.tiu.ru/documents/443" target="_blank" class="linkpovider">http://support.tiu.ru/documents/443</a></td>
+              </tr>
+              <tr>
+                <td>Tiu.ru</td>
+                <td>Произвольный товар<br>
+                  <p class="text-center">(vendor.model)</p>
+                </td>
+                <td>
+                  <pre lang="html" class="code">
+&lt;offer id=&quot;12341&quot; available=&quot;true&quot; selling_type=&quot;w&quot;&gt;
+	&lt;available&gt;true&lt;/available&gt;
+	&lt;price&gt;16800&lt;/price&gt;
+	&lt;oldprice&gt;19800&lt;/oldprice&gt;
+	&lt;currencyId&gt;USD&lt;/currencyId&gt;
+	&lt;categoryId&gt;6&lt;/categoryId&gt;
+	&lt;picture&gt;http://best.seller.ru/img/device12345.jpg&lt;/picture&gt;
+	&lt;picture&gt;http://best.seller.ru/img/device12346.jpg&lt;/picture&gt;
+	&lt;picture&gt;http://best.seller.ru/img/device12347.jpg&lt;/picture&gt;
+	&lt;typePrefix&gt;Принтер&lt;/typePrefix&gt;
+	&lt;vendor&gt;НP&lt;/vendor&gt;
+	&lt;vendorCode&gt;CH366C&lt;/vendorCode&gt;
+	&lt;model&gt;Deskjet D2663&lt;/model&gt;
+	&lt;description&gt;Серия принтеров для людей, которым нужен надежный, простой в использовании 
+	цветной принтер для повседневной печати. Формат А4. Технология печати: 4-цветная термальная струйная. 
+	Разрешение при печати: 4800х1200 т/д.
+	&lt;/description&gt;
+	&lt;country&gt;Япония&lt;/country&gt;
+	&lt;barcode&gt;1234567890120&lt;/barcode&gt;
+	&lt;param name=&quot;Максимальный формат&quot; unit=&quot;мм&quot;&gt;210&lt;/param&gt;
+&lt;/offer&gt;</pre>
+                </td>
+                <td><a href="http://support.tiu.ru/documents/443" target="_blank" class="linkpovider">http://support.tiu.ru/documents/443</a></td>
+              </tr>
+              <tr>
+                <td>Tiu.ru</td>
+                <td>Произвольный товар с поддержкой категорий<br>
+                  <!--p.text-center (vendor.model)-->
+                </td>
+                <td>
+                  <pre lang="html" class="code">
+&lt;offer id=&quot;12341&quot; available=&quot;true&quot; selling_type=&quot;w&quot;&gt;
+	&lt;name&gt;#NAME#&lt;/name&gt;
+	&lt;portal_category_id&gt;1234&lt;/portal_category_id&gt;
+	&lt;portal_category_url&gt;http://tiu.ru/Printers&lt;/portal_category_url&gt;
+	&lt;available&gt;true&lt;/available&gt;
+	&lt;price&gt;16800&lt;/price&gt;
+	&lt;oldprice&gt;19800&lt;/oldprice&gt;
+	&lt;currencyId&gt;USD&lt;/currencyId&gt;
+	&lt;categoryId&gt;6&lt;/categoryId&gt;
+	&lt;picture&gt;http://best.seller.ru/img/device12345.jpg&lt;/picture&gt;
+	&lt;picture&gt;http://best.seller.ru/img/device12346.jpg&lt;/picture&gt;
+	&lt;picture&gt;http://best.seller.ru/img/device12347.jpg&lt;/picture&gt;
+	&lt;typePrefix&gt;Принтер&lt;/typePrefix&gt;
+	&lt;vendor&gt;НP&lt;/vendor&gt;
+	&lt;vendorCode&gt;CH366C&lt;/vendorCode&gt;
+	&lt;model&gt;Deskjet D2663&lt;/model&gt;
+	&lt;description&gt;Серия принтеров для людей, которым нужен надежный, простой в использовании
+	цветной принтер для повседневной печати. Формат А4. Технология печати: 4-цветная термальная струйная.
+	Разрешение при печати: 4800х1200 т/д.
+	&lt;/description&gt;
+	&lt;country&gt;Япония&lt;/country&gt;
+	&lt;barcode&gt;1234567890120&lt;/barcode&gt;
+	&lt;param name=&quot;Максимальный формат&quot; unit=&quot;мм&quot;&gt;210&lt;/param&gt;
+&lt;/offer&gt;</pre>
+                </td>
+                <td><a href="http://support.tiu.ru/documents/443" target="_blank" class="linkpovider">http://support.tiu.ru/documents/443</a></td>
+              </tr>
+              <tr>
+                <td>Tiu.ru</td>
+                <td>Произвольный товар с поддержкой категорий<br>
+                  <p class="text-center">(vendor.model)</p>
+                </td>
+                <td>
+                  <pre lang="html" class="code">
+&lt;offer id=&quot;12341&quot; available=&quot;true&quot; selling_type=&quot;w&quot;&gt;
+	&lt;portal_category_id&gt;1234&lt;/portal_category_id&gt;
+	&lt;portal_category_url&gt;http://tiu.ru/Printers&lt;/portal_category_url&gt;
+	&lt;available&gt;true&lt;/available&gt;
+	&lt;price&gt;16800&lt;/price&gt;
+	&lt;oldprice&gt;19800&lt;/oldprice&gt;
+	&lt;currencyId&gt;USD&lt;/currencyId&gt;
+	&lt;categoryId&gt;6&lt;/categoryId&gt;
+	&lt;picture&gt;http://best.seller.ru/img/device12345.jpg&lt;/picture&gt;
+	&lt;picture&gt;http://best.seller.ru/img/device12346.jpg&lt;/picture&gt;
+	&lt;picture&gt;http://best.seller.ru/img/device12347.jpg&lt;/picture&gt;
+	&lt;typePrefix&gt;Принтер&lt;/typePrefix&gt;
+	&lt;vendor&gt;НP&lt;/vendor&gt;
+	&lt;vendorCode&gt;CH366C&lt;/vendorCode&gt;
+	&lt;model&gt;Deskjet D2663&lt;/model&gt;
+	&lt;description&gt;Серия принтеров для людей, которым нужен надежный, простой в использовании 
+	цветной принтер для повседневной печати. Формат А4. Технология печати: 4-цветная термальная струйная. 
+	Разрешение при печати: 4800х1200 т/д.
+	&lt;/description&gt;
+	&lt;country&gt;Япония&lt;/country&gt;
+	&lt;barcode&gt;1234567890120&lt;/barcode&gt;
+	&lt;param name=&quot;Максимальный формат&quot; unit=&quot;мм&quot;&gt;210&lt;/param&gt;
+&lt;/offer&gt;</pre>
+                </td>
+                <td><a href="http://support.tiu.ru/documents/443" target="_blank" class="linkpovider">http://support.tiu.ru/documents/443</a></td>
+              </tr>
+              <tr>
+                <td>Mail.ru</td>
+                <td>Экспорт товаров в систему Mail.ru<br>
+                  <!--p.text-center (vendor.model)-->
+                </td>
+                <td>
+                  <pre lang="html" class="code">
+&lt;torg_price date=&quot;2014-06-22 14:42&quot;&gt;
+	&lt;shop&gt;
+		&lt;shopname&gt;Магазин-пример&lt;/shopname&gt;
+		&lt;company&gt;ООО &quot;Магазин-пример&quot;&lt;/company&gt;
+		&lt;url&gt;http://magazin-primer.ru/&lt;/url&gt;
+		&lt;currencies&gt;
+			&lt;currency id=&quot;RUR&quot; rate=&quot;1&quot;/&gt;
+			&lt;currency id=&quot;USD&quot; rate=&quot;33.70&quot;/&gt;
+		&lt;/currencies&gt;
+		&lt;categories&gt;
+			&lt;category id=&quot;1&quot; parentId=&quot;0&quot;&gt;Кондиционеры&lt;/category&gt;
+			&lt;category id=&quot;2&quot; parentId=&quot;1&quot;&gt;Настенные кондиционеры&lt;/category&gt;
+		&lt;/categories&gt;
+		&lt;offers&gt;
+			&lt;offer id=&quot;1&quot; available=&quot;true&quot; cbid=&quot;4.50&quot;&gt;
+				&lt;url&gt;http://magazin-primer.ru/cond/wall/model1?from=torg&lt;/url&gt;
+				&lt;price&gt;10596&lt;/price&gt;
+				&lt;currencyId&gt;RUR&lt;/currencyId&gt;
+				&lt;categoryId&gt;2&lt;/categoryId&gt;
+				&lt;picture&gt;http://magazin-primer.ru/pictures/model1.jpeg&lt;/picture&gt;
+				&lt;typePrefix&gt;Кондиционер&lt;/typePrefix&gt;
+				&lt;vendor&gt;LG&lt;/vendor&gt;
+				&lt;model&gt;LS-H0561AL&lt;/model&gt;
+				&lt;description&gt;
+				Для помещеня площадью до 16 кв.м. этот сплит - кондиционер является самым доступным в своей категории. Сборка - Ю.Корея. Только охлаждение.
+				&lt;/description&gt;
+				&lt;delivery&gt;true&lt;/delivery&gt;
+				&lt;pickup&gt;false&lt;/pickup&gt;
+				&lt;local_delivery_cost&gt;300&lt;/local_delivery_cost&gt;
+			&lt;/offer&gt;
+			&lt;offer id=&quot;2&quot; available=&quot;true&quot; cbid=&quot;4.70&quot;&gt;
+				&lt;url&gt;http://magazin-primer.ru/cond/wall/model2?from=torg&lt;/url&gt;
+				&lt;price&gt;320&lt;/price&gt;
+				&lt;currencyId&gt;USD&lt;/currencyId&gt;
+				&lt;categoryId&gt;2&lt;/categoryId&gt;
+				&lt;picture&gt;http://magazin-primer.ru/pictures/model2.jpeg&lt;/picture&gt;
+				&lt;name&gt;Кондиционер LG S07LH&lt;/name&gt;
+				&lt;description&gt;
+				Сплит - кондиционер с плазменным фильтром для помещения площадью до 21 кв.м. Охлаждение/обогрев.
+				&lt;/description&gt;
+				&lt;delivery&gt;true&lt;/delivery&gt;
+				&lt;pickup&gt;true&lt;/pickup&gt;
+				&lt;local_delivery_cost&gt;300&lt;/local_delivery_cost&gt;
+			&lt;/offer&gt;
+		&lt;/offers&gt;
+	&lt;/shop&gt;
+&lt;/torg_price&gt;</pre>
+                </td>
+                <td><a href="http://torg.mail.ru/info/122/" target="_blank" class="linkpovider">http://torg.mail.ru/info/122/</a></td>
+              </tr>
+              <tr>
+                <td>Mail.ru</td>
+                <td>Экспорт товаров «ОДЕЖДА И ОБУВЬ» в систему Mail.r<br>
+                  <!--p.text-center (vendor.model)-->
+                </td>
+                <td>
+                  <pre lang="html" class="code">&lt;torg_price date=&quot;2014-06-22 14:42&quot;&gt;
+	&lt;shop&gt;
+		&lt;shopname&gt;Магазин-пример&lt;/shopname&gt;
+		&lt;company&gt;ООО &quot;Магазин-пример&quot;&lt;/company&gt;
+		&lt;url&gt;http://magazin-primer.ru/&lt;/url&gt;
+		&lt;currencies&gt;
+			&lt;currency id=&quot;RUR&quot; rate=&quot;1&quot;/&gt;
+			&lt;currency id=&quot;USD&quot; rate=&quot;33.70&quot;/&gt;
+		&lt;/currencies&gt;
+		&lt;categories&gt;
+			&lt;category id=&quot;1&quot; parentId=&quot;0&quot;&gt;Кондиционеры&lt;/category&gt;
+			&lt;category id=&quot;2&quot; parentId=&quot;1&quot;&gt;Настенные кондиционеры&lt;/category&gt;
+		&lt;/categories&gt;
+		&lt;offers&gt;
+			&lt;offer id=&quot;1&quot; available=&quot;true&quot; cbid=&quot;4.50&quot;&gt;
+				&lt;url&gt;http://magazin-primer.ru/cond/wall/model1?from=torg&lt;/url&gt;
+				&lt;price&gt;10596&lt;/price&gt;
+				&lt;currencyId&gt;RUR&lt;/currencyId&gt;
+				&lt;categoryId&gt;2&lt;/categoryId&gt;
+				&lt;picture&gt;http://magazin-primer.ru/pictures/model1.jpeg&lt;/picture&gt;
+				&lt;typePrefix&gt;Кондиционер&lt;/typePrefix&gt;
+				&lt;vendor&gt;LG&lt;/vendor&gt;
+				&lt;description&gt;
+				Для помещеня площадью до 16 кв.м. этот сплит - кондиционер является самым доступным в своей категории. Сборка - Ю.Корея. Только охлаждение.
+				&lt;/description&gt;
+				&lt;delivery&gt;true&lt;/delivery&gt;
+				&lt;pickup&gt;false&lt;/pickup&gt;
+				&lt;local_delivery_cost&gt;300&lt;/local_delivery_cost&gt;
+				&lt;param name=&quot;тип товара&quot;&gt;платье&lt;/param&gt;
+				&lt;param name=&quot;Пол&quot;&gt;женский&lt;/param&gt;
+				&lt;param name=&quot;Возраст&quot;&gt;Детский&lt;/param&gt;
+				&lt;param name=&quot;Размер&quot;&gt;46, 48, 50, 52, 54&lt;/param&gt;
+				&lt;param name=&quot;Цвет&quot;&gt;темно-серый, леопардовый&lt;/param&gt;
+				&lt;param name=&quot;Материал&quot;&gt;шерсть, хлопок, мех искусственный&lt;/param&gt;
+			&lt;/offer&gt;
+		&lt;/offers&gt;
+	&lt;/shop&gt;
+&lt;/torg_price&gt;</pre>
+                </td>
+                <td><a href="http://torg.mail.ru/info/122/#clothes" target="_blank" class="linkpovider">http://torg.mail.ru/info/122/#clothes</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

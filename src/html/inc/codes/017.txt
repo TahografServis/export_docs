@@ -1,0 +1,16 @@
+
+&lt;offer id=&quot;12346&quot; available=&quot;true&quot;&gt;
+	&lt;url&gt;http://best.seller.ru/product_page.asp?pid=12348&lt;/url&gt;
+	&lt;price&gt;600&lt;/price&gt;
+	&lt;currencyId&gt;USD&lt;/currencyId&gt;
+	&lt;categoryId&gt;6&lt;/categoryId&gt;
+	&lt;picture&gt;http://best.seller.ru/img/device12345.jpg&lt;/picture&gt;
+	&lt;name&gt;Casio A1234567B&lt;/name&gt;
+	&lt;typePrefix&gt;Наручные часы&lt;/typePrefix&gt;
+	&lt;vendor&gt;Casio&lt;/vendor&gt;
+	&lt;vendorCode&gt;A1234567B&lt;/vendorCode&gt;
+	&lt;description&gt;Изящные наручные часы&lt;/description&gt;
+	&lt;param name=&quot;Пол&quot;&gt;женские&lt;/param&gt;
+	&lt;manufacturer_warranty&gt;P2Y&lt;/manufacturer_warranty&gt;
+	&lt;country_of_origin&gt;Япония&lt;/country_of_origin&gt;
+&lt;/offer&gt;
