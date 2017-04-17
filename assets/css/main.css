@@ -328,6 +328,82 @@ pre.code .fnc span {
   margin-right: auto;
   margin-left: auto;
 }
+.container .download,
+.container_wrapper .download {
+  text-align: center;
+}
+.container .download:before,
+.container_wrapper .download:before,
+.container .download:after,
+.container_wrapper .download:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.container .download_list,
+.container_wrapper .download_list {
+  display: inline-block;
+  list-style: none;
+}
+.container .download_list:before,
+.container_wrapper .download_list:before,
+.container .download_list:after,
+.container_wrapper .download_list:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.container .download_list > li,
+.container_wrapper .download_list > li {
+  float: left;
+  margin-right: 15px;
+}
+.container .download_list > li:last-child,
+.container_wrapper .download_list > li:last-child {
+  margin-right: 0px;
+}
+.container .download_list > li a,
+.container_wrapper .download_list > li a {
+  display: block;
+  position: relative;
+  padding-left: 22px;
+}
+.container .download_list > li a:before,
+.container_wrapper .download_list > li a:before {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  line-height: 20px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAMAAABhEH5lAAAAbFBMVEUAAAAAAAAcHBwqKiofHx8eHh4QEBAQEBAKCgoEBAQICAgFBQUHBwcEBAQGBgYFBQUEBAQGBgYEBAQCAgIFBQUFBQUCAgIEBAQCAgICAgIEBAQEBAQDAwMCAgICAgIBAQEBAQEBAQEAAAAAAAB2SXrxAAAAI3RSTlMAAQkMEBEfLTE8PGRkeXuFn5+jrrKzv7/K1Nna3Orr7fv8/Yzy9BcAAAB0SURBVBjTtctJEoMwDERRAQljwGAnhHnq+98RK6ZUkD1/p1ctItej6590LQXSP0qA5C7yAkeBJ/ReMqbX8hEasJVAtWEQimf8mmN3Ryo8zEqoIktfaLfjjUZtqYHh32nkL4NGiHyfTtTmUnvQJaZiPcta0A6zRw7c/XKfIgAAAABJRU5ErkJggg==");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+.container .download_list > li a:hover,
+.container_wrapper .download_list > li a:hover {
+  color: #0094FF;
+  text-decoration: underline;
+}
+.container .download_list > li a:hover:before,
+.container_wrapper .download_list > li a:hover:before {
+  opacity: 1;
+}
+.container .download_list > li a,
+.container_wrapper .download_list > li a,
+.container .download_list > li a.active,
+.container_wrapper .download_list > li a.active,
+.container .download_list > li a:visited,
+.container_wrapper .download_list > li a:visited {
+  color: #0094FF;
+  text-decoration: none;
+}
 .container:before,
 .container:after {
   display: table;
