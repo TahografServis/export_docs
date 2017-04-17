@@ -5,7 +5,6 @@ html
 		meta(name="viewport" content="width=device-width,initial-scale=1")
 		meta(name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE")
 		meta(http-equiv="Content-Type" content="text/html; charset=UTF-8")
-		link(rel="stylesheet" href="assets/css/main.css" type="text/css")
 		title Документация по экспорту товаров на разные площадки
 		link(rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png")
 		link(rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32")
@@ -13,6 +12,9 @@ html
 		link(rel="manifest" href="manifest.json")
 		link(rel="mask-icon" href="safari-pinned-tab.svg" color="#00c7ff")
 		meta(name="theme-color" content="#ffffff")
+		style
+			include ../../assets/css/main.css
+		//link(rel="stylesheet" href="assets/css/main.css" type="text/css")
 	body
 		.container
 			.row
@@ -25,5 +27,6 @@ html
 							li
 								a(href="https://github.com/TahografServis/export_docs/archive/master.tar.gz") Source code (tar.gz)
 					include table
-		script(src="assets/js/main.js")
-		
+		//script(src="assets/js/main.js")
+		script
+			include ../../assets/js/main.js
