@@ -15,7 +15,7 @@
  -  LEngow
  -  Advantshop.net
  -  Price.ru
- -  Социальные сети">
+ -  Социальные сети
      -  Вконтакте (vk)
      -  Facebook (fb)
      -  Facebook Business (fb ads)
