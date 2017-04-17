@@ -1,0 +1,26 @@
+
+&lt;product&gt;
+	&lt;Category&gt;&lt;![CDATA[ Billets d'avion ]]&gt;&lt;/category&gt;
+	&lt;Unique_ID&gt;&lt;![CDATA[ 2 ]]&gt;&lt;/Unique_ID&gt;
+	&lt;Title&gt;&lt;![CDATA[ Couette Ultra Light Sleep 240x200]]&gt;&lt;/title&gt; &lt;Description&gt;&lt;![CDATA[Frais de livraison offerts Cette couette conviendra particulierement aux personnes qui recherchent un produit naturel et extremement leger pour les chaudes nuits d'ete]]&gt;&lt;/description&gt;
+	&lt;Price&gt;&lt;![CDATA[ 399 ]]&gt;&lt;/Price&gt;
+	&lt;Product_URL&gt;&lt;![CDATA  
+	[http://tracking.lengow.com/shortUrl/14-15062-2115/nx/Product_URL&gt;
+	&lt;Image_URLx![CDATA[http://www.monsite.com/Photos/Products/000004/000001.jpg]]x
+	/Image_URL&gt;
+	&lt;Delivery_costs&gt;&lt;![CDATA[ 0 ]]&gt;&lt;/Delivery_costs&gt;
+	&lt;Availability&gt;&lt;![CDATA[ 0 ]]&gt;&lt;/Availability&gt;
+	&lt;Delivery_time&gt;&lt;![CDATA[ 7 ]]&gt;&lt;/Delivery_time&gt;
+	&lt;Warranty&gt;&lt;![CDATA[ 3 ]]&gt;&lt;/Warranty&gt;
+	&lt;Ecotax&gt;&lt;![CDATA[ 0 ]]&gt;&lt;/Ecotax&gt;
+	&lt;Brand&gt;&lt;![CDATA[ Plumka ]]&gt;&lt;/Brand&gt;
+	&lt;EAN/&gt;
+	&lt;Barred_price/&gt;
+	&lt;Currency&gt;&lt;![CDATA[ EUR ]]&gt;&lt;/Currency&gt;
+	&lt;Condition&gt;&lt;![CDATA[ 0 ]]&gt;&lt;/Condition&gt;
+	&lt;Promotion_type&gt;&lt;![CDATA[ 0 ]]&gt;&lt;/Promotion_type&gt;
+	&lt;Colour&gt;&lt;![CDATA[ rouge ]]&gt;&lt;/Colour&gt;
+	&lt;Material/&gt;
+	&lt;Size/&gt;
+	&lt;Gender/&gt;
+&lt;/product&gt;

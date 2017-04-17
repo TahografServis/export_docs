@@ -1,0 +1,12 @@
+
+&lt;item id=&quot;330&quot;&gt;
+	&lt;name&gt;Motorola A1200&lt;/name&gt;
+	&lt;categoryId&gt;1001&lt;/categoryId&gt;
+	&lt;price&gt;1260&lt;/price&gt;
+	&lt;bnprice&gt;1300&lt;/bnprice&gt;
+	&lt;url&gt;http://url/catalog/1/1/330/&lt;/url&gt;
+	&lt;image&gt;http://url/images/image7402727981188804741.jpg&lt;/image&gt;
+	&lt;vendor&gt;Motorola&lt;/vendor&gt;
+	&lt;description&gt;GSM 900/1800/1900. Тип корпуса: раскладушка. Аккумулятор: 850 мАч.&lt;/description&gt;
+	&lt;warranty&gt;12&lt;/warranty&gt;
+&lt;/item&gt;

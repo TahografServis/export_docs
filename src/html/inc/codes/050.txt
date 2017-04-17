@@ -1,0 +1,13 @@
+
+&lt;offer id=&quot;4707&quot; available=&quot;true&quot;&gt;
+	&lt;url&gt;http://www.shop.com.ua/Samsung-RV518-NP-RV518-A02UA?from=technoportal&lt;/url&gt;
+	&lt;price&gt;464&lt;/price&gt;
+	&lt;currencyId&gt;USD&lt;/currencyId&gt;
+	&lt;categoryId&gt;73&lt;/categoryId&gt;
+	&lt;picture&gt;http://www.shop.com.ua/data/small/samsung_rv518_(np-rv518-a02ua)_4.jpg&lt;/picture&gt;
+	&lt;delivery&gt;true&lt;/delivery&gt;
+	&lt;vendor&gt;Samsung&lt;/vendor&gt;
+	&lt;name&gt;Ноутбук Samsung RV518 (NP-RV518-A02UA)&lt;/name&gt;
+	&lt;description&gt;Экран 15.6 / (1366х768) HD / Intel Pentium DC B940(2.0Ghz)&lt;/description&gt;
+	&lt;warranty&gt;24&lt;/warranty&gt;
+&lt;/offer&gt;

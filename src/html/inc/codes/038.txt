@@ -1,0 +1,22 @@
+
+&lt;offer id=&quot;12346&quot; available=&quot;true&quot; bid=&quot;21&quot;&gt;
+	&lt;url&gt;http://best.seller.ru/product_page.asp?pid=12348&lt;/url&gt;
+	&lt;price&gt;600&lt;/price&gt;
+	&lt;currencyId&gt;USD&lt;/currencyId&gt;
+	&lt;categoryId&gt;6&lt;/categoryId&gt;
+	&lt;picture&gt;http://best.seller.ru/img/device12345.jpg&lt;/picture&gt;
+	&lt;store&gt;false&lt;/store&gt;
+	&lt;pickup&gt;true&lt;/pickup&gt;
+	&lt;delivery&gt;false&lt;/delivery&gt;
+	&lt;local_delivery_cost&gt;300&lt;/local_delivery_cost&gt;
+	&lt;name&gt;Наручные часы Casio A1234567B&lt;/name&gt;
+	&lt;vendor&gt;Casio&lt;/vendor&gt;
+	&lt;vendorCode&gt;A1234567B&lt;/vendorCode&gt;
+	&lt;description&gt;Изящные наручные часы.&lt;/description&gt;
+	&lt;sales_notes&gt;Необходима предоплата.&lt;/sales_notes&gt;
+	&lt;manufacturer_warranty&gt;true&lt;/manufacturer_warranty&gt;
+	&lt;country_of_origin&gt;Япония&lt;/country_of_origin&gt;
+	&lt;age unit=&quot;year&quot;&gt;18&lt;/age&gt;
+	&lt;barcode&gt;0123456789012&lt;/barcode&gt;
+	&lt;cpa&gt;1&lt;/cpa&gt;  
+&lt;/offer&gt;

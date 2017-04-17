@@ -1,0 +1,22 @@
+
+&lt;Product MerchantSKU=&quot;Код_товара_в_ИС_мерчанта&quot; ProductTypeID=&quot;286495572000&quot;&gt;
+	&lt;SKU&gt;
+		&lt;Name&gt;Название товара&lt;/Name&gt;
+		&lt;ManufacturerIdentifier&gt;123456789&lt;/ManufacturerIdentifier&gt;
+		&lt;GrossWeight&gt;861&lt;/GrossWeight&gt;
+		&lt;InternalName&gt;Внутреннее название товара в ИС мерчанта. Не отображается на вебвитрине.&lt;/InternalName&gt;
+	&lt;/SKU&gt;
+	&lt;Price&gt;
+		&lt;SellingPrice&gt;123&lt;/SellingPrice&gt;
+		&lt;Discount&gt;20&lt;/Discount&gt;
+	&lt;/Price&gt;
+	&lt;Availability&gt;
+		&lt;SellingState&gt;ForSale&lt;/SellingState&gt;
+		&lt;SupplyPeriod&gt;&lt;/SupplyPeriod&gt;
+		&lt;Qty&gt;&lt;/Qty&gt;
+	&lt;/Availability&gt;
+	&lt;Description&gt;
+		&lt;!-- Структура данных блока Description зависит от типа товара (ProductTypeID) 
+		и будет рассмотрена в отдельной статье. --&gt;
+	&lt;/Description&gt;
+&lt;/Product&gt;

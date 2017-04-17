@@ -1,0 +1,32 @@
+
+&lt;offer id=&quot;321&quot; type=&quot;vendor.model&quot; available=&quot;true&quot; bid=&quot;13&quot; group_id=&quot;22&quot;&gt;
+	&lt;url&gt;http://best.clothes.ru/product_page.asp?pid=12344&lt;/url&gt;
+	&lt;price&gt;5400&lt;/price&gt;
+	&lt;oldprice&gt;6500&lt;/oldprice&gt;
+	&lt;currencyId&gt;RUR&lt;/currencyId&gt;
+	&lt;categoryId&gt;6&lt;/categoryId &gt;
+	&lt;market_category&gt;Одежда, обувь и аксессуары/Женская одежда/Белье и купальники/Комплекты&lt;/market_category&gt;
+	&lt;picture&gt;http://best.seller.ru/img/picture1.jpg&lt;/picture&gt;
+	&lt;picture&gt;http://best.seller.ru/img/picture2.jpg&lt;/picture&gt;
+	&lt;store&gt;true&lt;/store&gt;
+	&lt;pickup&gt;false&lt;/pickup&gt;
+	&lt;delivery&gt;true&lt;/delivery&gt;
+	&lt;delivery-options&gt;
+		&lt;option cost=&quot;200&quot; days=&quot;1&quot; order-before=&quot;14&quot;/&gt;
+	&lt;/delivery-options&gt;
+	&lt;vendor&gt;Thriumph&lt;/vendor&gt;
+	&lt;model&gt;Комлект&lt;/model&gt;
+	&lt;description&gt;
+		Яркий полупрозрачный комплект, состоящий из бюстгальтера и трусиков. 
+		Украшен рисунком в горошек. Бюстгальтер тонких бретельках регулируемой длины.
+	&lt;/description&gt;
+	&lt;country_of_origin&gt;Китай&lt;/country_of_origin&gt;
+	&lt;barcode&gt;0123456789012&lt;/barcode&gt;
+	&lt;param name=&quot;Чашка&quot; unit=&quot;RU&quot;&gt;B&lt;/param&gt;
+	&lt;param name=&quot;Обхват груди&quot; unit=&quot;см&quot;&gt;95&lt;/param&gt;
+	&lt;param name=&quot;Размер трусов&quot; unit=&quot;INT&quot;&gt;M&lt;/param&gt;
+	&lt;param name=&quot;Цвет&quot;&gt;Красный&lt;/param&gt;
+	&lt;param name=&quot;Пол&quot;&gt;Женский&lt;/param&gt;
+	&lt;param name=&quot;Возраст&quot;&gt;Взрослый&lt;/param&gt;
+	&lt;param name=&quot;Материал&quot;&gt;100% Нейлон&lt;/param&gt;
+&lt;/offer&gt;

@@ -1,0 +1,21 @@
+
+&lt;item&gt;
+	&lt;g:id&gt;DB_1&lt;/g:id&gt;
+	&lt;g:title&gt;Dog Bowl In Blue&lt;/g:title&gt;
+	&lt;g:description&gt;Solid plastic Dog Bowl in marine blue color&lt;/g:description&gt;
+	&lt;g:google_product_category&gt;Animals &gt; Pet Supplies&lt;/g:google_product_category&gt;
+	&lt;g:product_type&gt;Bowls &amp; Dining &gt; Food &amp; Water Bowls&lt;/g:product_type&gt;
+	&lt;g:link&gt;http://www.example.com/bowls/db-1.html&lt;/g:link&gt;
+	&lt;g:image_link&gt;http://images.example.com/DB_1.png&lt;/g:image_link&gt;
+	&lt;g:condition&gt;new&lt;/g:condition&gt;
+	&lt;g:availability&gt;in stock&lt;/g:availability&gt;
+	&lt;g:price&gt;9.99 GBP&lt;/g:price&gt;
+	&lt;g:brand&gt;Example&lt;/g:brand&gt;
+	&lt;g:item_group_id&gt;DB_GROUP_1&lt;/g:item_group_id&gt;
+	&lt;g:shipping&gt;
+		&lt;g:country&gt;UK&lt;/g:country&gt;
+		&lt;g:service&gt;Standard&lt;/g:service&gt;
+		&lt;g:price&gt;9.95 GBP&lt;/g:price&gt;
+	&lt;/g:shipping&gt;
+	&lt;g:custom_label_0&gt;Made in Waterford, IE&lt;/g:custom_label_0&gt;
+&lt;/item&gt;

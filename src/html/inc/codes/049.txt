@@ -1,0 +1,20 @@
+
+&lt;item&gt;
+	&lt;id&gt;3278&lt;/id&gt;
+	&lt;categoryId&gt;2&lt;/categoryId&gt;
+	&lt;code&gt;n456-5300em-2010&lt;/code&gt;
+	&lt;barcode&gt;48607830&lt;/barcode&gt;
+	&lt;vendor&gt;Nokia&lt;/vendor&gt;
+	&lt;name&gt;5300 ExpressMusic&lt;/name&gt;
+	&lt;description&gt;Мобильный телефон.&lt;/description&gt;
+	&lt;url&gt;http://shop.ua/1/2/123.html&lt;/url&gt;
+	&lt;image&gt;http://shop.ua/img/1/2/123.jpg&lt;/image&gt;
+	&lt;priceRUAH&gt;1000&lt;/priceRUAH&gt;
+	&lt;oldprice&gt;1200&lt;/oldprice&gt;
+	&lt;priceRUSD&gt;200&lt;/priceRUSD&gt;
+	&lt;stock&gt;В наличии&lt;/stock&gt;
+	&lt;guarantee type=&quot;manufacturer&quot;&gt;12&lt;/guarantee&gt;
+	&lt;param name=&quot;Страна изготовления&quot;&gt;Украина&lt;/param&gt;
+	&lt;param name=&quot;Оригинальность&quot;&gt;Оригинал&lt;/param&gt;
+	&lt;custom&gt;1&lt;/custom&gt;
+&lt;/item&gt;

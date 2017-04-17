@@ -1,0 +1,11 @@
+
+&lt;item id=&quot;12346&quot;&gt;
+	&lt;url&gt;http://best.seller.ru/product_page.asp?pid=12348&lt;/url&gt;
+	&lt;price&gt;600&lt;/price&gt;
+	&lt;categoryId&gt;6&lt;/categoryId&gt;
+	&lt;typePrefix&gt;Часы&lt;/typePrefix&gt;
+	&lt;vendor&gt;Casio&lt;/vendor&gt;
+	&lt;name&gt;Наручные часы Casio A1234567B&lt;/name&gt;
+	&lt;image&gt;http://best.seller.ru/img/device12345.jpg&lt;/image&gt;
+	&lt;description&gt;Изящные наручные часы.&lt;/description&gt;
+&lt;/item&gt;

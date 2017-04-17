@@ -1,0 +1,38 @@
+
+&lt;offer id=&quot;12341&quot; type=&quot;vendor.model&quot; available=&quot;true&quot; bid=&quot;13&quot;&gt;
+	&lt;url&gt;http://best.seller.ru/product_page.asp?pid=12344&lt;/url&gt;
+	&lt;price&gt;16800&lt;/price&gt;
+	&lt;oldprice&gt;17000&lt;/oldprice&gt;
+	&lt;currencyId&gt;USD&lt;/currencyId&gt;
+	&lt;categoryId&gt;6&lt;/categoryId&gt;
+	&lt;picture&gt;http://best.seller.ru/img/device12345.jpg&lt;/picture&gt;
+	&lt;store&gt;false&lt;/store&gt;
+	&lt;pickup&gt;false&lt;/pickup&gt;
+	&lt;delivery&gt;true&lt;/delivery&gt;
+	&lt;delivery-options&gt; 
+		&lt;option cost=&quot;300&quot; days=&quot;0&quot; order-before=&quot;14&quot;/&gt; 
+	&lt;/delivery-options&gt;
+	&lt;typePrefix&gt;Принтер&lt;/typePrefix&gt;
+	&lt;vendor&gt;НP&lt;/vendor&gt;
+	&lt;vendorCode&gt;CH366C&lt;/vendorCode&gt;
+	&lt;model&gt;Deskjet D2663&lt;/model&gt;
+	&lt;description&gt;Серия принтеров для людей, которым нужен надежный, простой в использовании 
+	цветной принтер для повседневной печати. Формат А4. Технология печати: 4-цветная термальная струйная. 
+	Разрешение при печати: 4800х1200 т/д.
+	&lt;/description&gt;
+	&lt;sales_notes&gt;Необходима предоплата.&lt;/sales_notes&gt;
+	&lt;manufacturer_warranty&gt;true&lt;/manufacturer_warranty&gt;
+	&lt;country_of_origin&gt;Япония&lt;/country_of_origin&gt;
+	&lt;barcode&gt;1234567890120&lt;/barcode&gt;
+	&lt;cpa&gt;1&lt;/cpa&gt;
+	&lt;rec&gt;123123,1214,243&lt;/rec&gt;
+	&lt;expiry&gt;P5Y&lt;/expiry&gt;
+	&lt;weight&gt;2.07&lt;/weight&gt;
+	&lt;dimensions&gt;100/25.45/11.112&lt;/dimensions&gt;
+	&lt;param name=&quot;Максимальный формат&quot;&gt;А4&lt;/param&gt;
+	&lt;param name=&quot;Технология печати&quot;&gt;термическая струйная&lt;/param&gt;
+	&lt;param name=&quot;Тип печати&quot;&gt;Цветная&lt;/param&gt;
+	&lt;param name=&quot;Количество страниц в месяц&quot; unit=&quot;стр&quot;&gt;1000&lt;/param&gt;
+	&lt;param name=&quot;Потребляемая мощность&quot; unit=&quot;Вт&quot;&gt;20&lt;/param&gt;
+	&lt;param name=&quot;Вес&quot; unit=&quot;кг&quot;&gt;2.73&lt;/param&gt;
+&lt;/offer&gt;
