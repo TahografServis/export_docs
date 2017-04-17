@@ -32,5 +32,5 @@
 
 
 [ProjectSoft-STUDIONIONS for GitHub](https://github.com/ProjectSoft-STUDIONIONS)  
-[ProjectSoft for Demiart](https://github.com/ProjectSoft-STUDIONIONS)  
+[ProjectSoft for Demiart](https://demiart.ru/forum/index.php?showuser=1393929)  
 [STUDIONIONS](http://studionions.com/)  
