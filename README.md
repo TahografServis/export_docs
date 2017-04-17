@@ -1,5 +1,6 @@
 # export_docs
 Документация по экспорту товаров на разные площадки
+[Подробно](https://tahografservis.github.io/export_docs/)
  -  Yandex
  -  Google
  -  Wikimart
