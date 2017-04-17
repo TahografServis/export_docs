@@ -1,7 +1,7 @@
 # export_docs
 Документация по экспорту товаров на разные площадки
 
-[Подробно](https://tahografservis.github.io/export_docs/){:target="_blank"}
+[Подробно](https://tahografservis.github.io/export_docs/)
 
  -  Yandex
  -  Google
